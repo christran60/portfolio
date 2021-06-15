@@ -1,40 +1,59 @@
+
 .actualpfp{
-    width: 40vw;
-    border-radius:10vw;
+/* id like to shift this upwards in my piccontainer */
+    width: 35vw;
+    border-radius:15vw;
     padding:4px;
-    
     /* overflow: hidden; */
+}
+.introcont{
+    /* currently doesnt scale properly with mobile devices idk why */
+    display: flex;
+    font-size: 4vw;
+    margin-bottom: -35px;
+    
 }
 .namecont{
     /* background-color: aquamarine; */
-    font-size: 6.5vw;
+    font-size: 6vw;
+    display: flex;
 }
 .biocont{
     /* background-color: blue; */
-    font-size:3.5vw;
+    font-size:3vw;
     display: flex;
     justify-content: center;
-    text-align: center;
+    border-radius:2vw;
+    border-style:solid;
+    border-width: 1vw;
+    border-color:palegreen;
+}
+.biocont:hover{
+    background-color: palegreen;
+    color:papayawhip;
 }
 .Headcontainer{
+    background-color:lemonchiffon;
     display:flex;
     flex-direction: row;
     /* background-color: cadetblue; */
 }
 .nameandbiocontainer{
     /* background-color: chocolate; */
+    margin-left: 1vw;
     display:flex;
     flex-direction: column;
     justify-content:space-evenly;
-    align-items:center;
+    align-items:left;
 
 }
 .piccontainer{
     background-color:bisque;
+    margin-left: 5vw;
     padding:4px;
     /* width: 50vw; */
     border-radius:15vw;
     border-style:outset;
     border-width: 1vw;
-    border-color:lightseagreen;
+    border-color:darkseagreen;
 }
