@@ -1,5 +1,5 @@
 import React from 'react'
-import pfp from "../images/sovapfpblue.png"
+import pfp from "../images/bestpicofmeremovedbg.png"
 import "./Header.css"
 function Header() {
     return (

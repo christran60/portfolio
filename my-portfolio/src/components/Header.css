@@ -1,6 +1,9 @@
 .actualpfp{
     width: 40vw;
+    border-radius:10vw;
     padding:4px;
+    
+    /* overflow: hidden; */
 }
 .namecont{
     /* background-color: aquamarine; */
@@ -24,7 +27,14 @@
     flex-direction: column;
     justify-content:space-evenly;
     align-items:center;
+
 }
 .piccontainer{
-    /* background-color: rgb(0, 0, 0); */
+    background-color:bisque;
+    padding:4px;
+    /* width: 50vw; */
+    border-radius:15vw;
+    border-style:outset;
+    border-width: 1vw;
+    border-color:lightseagreen;
 }
