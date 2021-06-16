@@ -1,4 +1,4 @@
-a "connect with me" bar at the bottom of the page that displays social media icons, and links to said social media accounts
+a "connect with me" bar at the top right of the page that displays social media icons, and links to said social media accounts
 
 base state:
 outlined icon, with border of a circle surrounding each one. maybe in diff colors idk

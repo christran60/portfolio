@@ -1,0 +1,48 @@
+.Body2cont{
+    padding-top: 5vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    /* padding-left: 31vw;
+    padding-right: 30vw; */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Languagescont{
+background-color: snow;
+}
+.langbox{
+    background-color: slategray;
+    text-align: left;
+    font-size: 5vw;
+    font-size: 5vh;
+}
+.langthrough3cont{
+    background-color: lightcoral;
+    display:flex;
+    flex-direction: row;
+}
+.l1{
+
+}
+.l2{
+    
+}
+.l3{
+    
+}
+.langthrough6cont{
+    background-color:lightslategrey;
+    display:flex;
+    flex-direction: row;
+}
+.l4{
+    
+}
+.l5{
+    
+}
+.l6{
+    
+}

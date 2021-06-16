@@ -1,44 +1,69 @@
 
 .actualpfp{
 /* id like to shift this upwards in my piccontainer */
-    width: 35vw;
-    border-radius:15vw;
-    padding:4px;
+    width: 13vw;
+    /* border-radius:13vw; */
+    margin-bottom: -.5vw;
+    /* padding:4px; */
     /* overflow: hidden; */
+    border-style: solid;
+    border-radius:13vw;
+    border-style:solid;
+    border-width: .65vw;
+    border-color:darkseagreen; 
+
 }
 .introcont{
-    /* currently doesnt scale properly with mobile devices idk why */
+  
     display: flex;
-    font-size: 4vw;
-    margin-bottom: -35px;
+    font-size: 1.5vw;
+    margin-bottom: -25px;
     
 }
 .namecont{
     /* background-color: aquamarine; */
-    font-size: 6vw;
+    font-size: 2.5vw;
     display: flex;
+    /* justify-content: center; */
+    /* position:absolute; */
 }
 .biocont{
+    font-size:.95vw;
     /* background-color: blue; */
-    font-size:3vw;
     display: flex;
     justify-content: center;
+    width:10vw;
     border-radius:2vw;
     border-style:solid;
-    border-width: 1vw;
+    border-width: .35vw;
     border-color:palegreen;
 }
+.cvlink:link{
+    color:black;
+    text-decoration:none;
+}
+.cvlink:visited{
+    color:black;
+}
+
 .biocont:hover{
     background-color: palegreen;
     color:papayawhip;
 }
 .Headcontainer{
+    width: 100vw;
+    height: 100vh;
+    /* padding-top: 19vw; */
+    /* padding-left: 30vw;
+    padding-right: 30vw; */
     background-color:lemonchiffon;
     display:flex;
     flex-direction: row;
-    /* background-color: cadetblue; */
+    justify-content: center;
 }
 .nameandbiocontainer{
+      /* text currently doesnt scale properly with mobile devices idk why */
+      /* watch vid on mobile scaling */
     /* background-color: chocolate; */
     margin-left: 1vw;
     display:flex;
@@ -48,12 +73,15 @@
 
 }
 .piccontainer{
-    background-color:bisque;
+    /* maybe add animation to border here */
+    /* background-color:slategray; */
     margin-left: 5vw;
-    padding:4px;
+    /* padding:4px; */
     /* width: 50vw; */
-    border-radius:15vw;
-    border-style:outset;
-    border-width: 1vw;
-    border-color:darkseagreen;
+    /* border-radius:13vw;
+    border-style:solid;
+    border-width: .65vw;
+    border-color:darkseagreen; */
+    padding-top: 15vw;
+    padding-top: 15vh;
 }
