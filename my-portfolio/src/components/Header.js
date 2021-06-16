@@ -13,8 +13,7 @@ function Header() {
                 </div>
                 {/* biocont is CV link */}
                 <div className="biocont">
-                <a className="cvlink" href="https://github.com/christran60/portfolio/tree/master/my-portfolio" target="_blank">Here's a link to my CV</a>
-                {/* still need to make this a clickable link */}
+                <a className="cvlink" href="https://github.com/christran60/portfolio/tree/master/my-portfolio" target="_blank">CV here!</a>
                 </div>
             </div>
             

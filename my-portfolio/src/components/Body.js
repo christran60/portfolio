@@ -7,8 +7,11 @@ function Body() {
     return (
         <div className="Bodycont">
             <div className="actualbiocont">
-            <div className="aboutmecont">
-                Who am I?
+                <div className="outerbordercont">
+
+                </div>
+                <div className="aboutmecont">
+                    Who am I?
             </div>
             <div className="descriptioncont">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque unde aut asperiores. Molestias, ex non?

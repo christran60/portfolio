@@ -1,41 +1,49 @@
 
 .actualpfp{
-/* id like to shift this upwards in my piccontainer */
-    width: 13vw;
+    /* height:65%; */
+    width:15vw;
     /* border-radius:13vw; */
-    margin-bottom: -.5vw;
+    /* margin-bottom: -.5rem; */
     /* padding:4px; */
     /* overflow: hidden; */
     border-style: solid;
-    border-radius:13vw;
-    border-style:solid;
-    border-width: .65vw;
+    border-radius:100%;
+    border-width: .8vw;
     border-color:darkseagreen; 
+    object-fit: cover;
+
+}
+.image{
 
 }
 .introcont{
   
-    display: flex;
-    font-size: 1.5vw;
-    margin-bottom: -25px;
+    /* display: flex; */
+    font-size: 2.5vw;
+    padding-bottom: .25rem;
     
 }
 .namecont{
     /* background-color: aquamarine; */
-    font-size: 2.5vw;
-    display: flex;
-    /* justify-content: center; */
-    /* position:absolute; */
+    padding-bottom: 2rem;
+    font-size: 3.5vw;
+    
 }
 .biocont{
-    font-size:.95vw;
+    font-size:2vw;
+    display:flex;
+    justify-content: center;
     /* background-color: blue; */
+    
+}
+.cvlink{
+    /* background-color: teal; */
     display: flex;
     justify-content: center;
-    width:10vw;
-    border-radius:2vw;
+    width:9.1vw;
+    border-radius:5vw;
     border-style:solid;
-    border-width: .35vw;
+    border-width: .5vw;
     border-color:palegreen;
 }
 .cvlink:link{
@@ -46,42 +54,83 @@
     color:black;
 }
 
-.biocont:hover{
+.cvlink:hover{
     background-color: palegreen;
     color:papayawhip;
 }
 .Headcontainer{
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
-    /* padding-top: 19vw; */
-    /* padding-left: 30vw;
-    padding-right: 30vw; */
     background-color:lemonchiffon;
     display:flex;
     flex-direction: row;
     justify-content: center;
+    /* justify-content: ; */
 }
 .nameandbiocontainer{
       /* text currently doesnt scale properly with mobile devices idk why */
       /* watch vid on mobile scaling */
     /* background-color: chocolate; */
-    margin-left: 1vw;
     display:flex;
     flex-direction: column;
-    justify-content:space-evenly;
-    align-items:left;
+    /* justify-content:space-evenly; */
+    justify-content: center;
+    /* align-items:left; */
 
 }
 .piccontainer{
+
     /* maybe add animation to border here */
     /* background-color:slategray; */
-    margin-left: 5vw;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
     /* padding:4px; */
     /* width: 50vw; */
     /* border-radius:13vw;
     border-style:solid;
     border-width: .65vw;
     border-color:darkseagreen; */
-    padding-top: 15vw;
-    padding-top: 15vh;
+
+}
+/* mediaquery for iphonex */
+@media only screen and (max-width:700px){
+    .Headcontainer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .piccontainer{
+        margin-left: 0rem;
+        
+    }
+    .namecont{
+        font-size: 10vw;
+    }
+    .introcont{
+        font-size: 8vw;
+    }
+    .biocont{
+        font-size: 5vw;
+        padding-bottom: 4vh;
+    }
+
+    .cvlink{
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center;
+    width:20vw;
+    border-radius:5vw;
+    border-style:solid;
+    border-width: 1vw;
+    border-color:palegreen;
+}
+    .actualpfp{
+        width:50vw;
+        border-width: 2vw;
+    }
+
 }
