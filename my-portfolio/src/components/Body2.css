@@ -1,52 +1,145 @@
 .Body2cont{
-    /* padding-top: 5vw; */
-    padding-top: 15vw;
-    /* padding-left: 31vw;
-    padding-right: 30vw; */
+
     width: 100vw;
     height: 100vh;
-    background-color:teal;
+    background-color:powderblue;
     display:flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
+    align-items: center;
 }
-/* have prog language right under icon, so employers can ctrl f and look for said language */
+/* have prog language right under icon, so employers can ctrl f and look for s */
 .Languagescont{
+    width:50%;
+    /* height:50%; */
+    position:relative;
     display:flex;
-    flex-direction: row;
-    justify-content: center;
-background-color: snow;
+    flex-direction: column;
+    /* background-color: snow; */
 }
 .langbox{
-    background-color: slategray;
+    padding-top: 1vw;
+    /* background-color: slategray; */
     /* text-align: left; */
-    font-size: 5vw;
+    font-size: 1.8rem;
 }
 .langthrough3cont{
+    padding-top: 4.5vw; 
+    /* padding-left: 3.5vw; */
     /* background-color: lightcoral; */
-    /* display:flex;
-    flex-direction: row; */
+    /* position: relative;  */
+    /* border-radius: 20%; */
+    border-top-width: 0vw;
+    border-left-width: 0vw;
+    border-right-width: 0vw;
+    border-color:white;
+    /* border-bottom-width: 1px; */
+    padding-bottom: 1vw;
+    border-style: solid;
+    display:flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 5rem;
 }
-.l1{
-
+.devicon-cplusplus-line{
+    /* font-size: 5rem; */
+    color:white;
+    /* background-color: purple; */
+    border-radius: 20%;
+    border-width: .2rem;
+    border-style: solid;
+    padding:.3vw;
 }
-.l2{
-    
+.devicon-css3-plain{
+    /* font-size: 5rem; */
+    color:white;
+    /* background-color: purple; */
+    border-radius: 20%;
+    border-width: .2rem;
+    border-style: solid;
+    padding:.3vw;
 }
-.l3{
-    
+.devicon-html5-plain{
+    /* font-size:5rem; */
+    color:white;
+    padding:.3vw;
+    /* background-color: purple; */
+    border-radius: 20%;
+    border-width: .2rem;
+    border-style: solid;
+}
+.devicon-react-original{
+    /* font-size:5rem; */
+    color:white;
+    padding: .3vw;
+    /* background-color: purple; */
+    border-radius: 20%;
+    border-width: .2rem;
+    border-style: solid;
+}
+.devicon-javascript-plain{
+    /* font-size:5rem; */
+    color:white;
+    padding: .3vw;
+    /* background-color: purple; */
+    border-radius: 20%;
+    border-width: .2rem;
+    border-style: solid;
+}
+.devicon-python-plain{
+    /* font-size:5rem; */
+    color:white;
+    padding:.3vw;
+    /* background-color: purple; */
+    border-radius: 20%;
+    border-width: .2rem;
+    border-style: solid;
 }
 .langthrough6cont{
-    /* background-color:lightslategrey; */
-    /* display:flex;
-    flex-direction: row; */
-}
-.l4{
+    font-size: 5rem;
+    padding-top: 1vw; 
     
+    /* padding-left: 3.5vw; */
+    /* background-color: lightcoral; */
+    /* position: relative;  */
+    display:flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-evenly;
 }
-.l5{
-    
+.alllangcont{
+    /* background-color: purple; */
 }
-.l6{
-    
+@media only screen and (max-width:700px){
+    .langthrough3cont{
+        padding-top:2vw;
+    flex-direction: column;
+    font-size: 13vw;
+    border-top-width: 0vw;
+    border-left-width: 0vw;
+    border-right-width: .2rem;
+    border-color:white;
+    border-bottom-width: 0px;
+    padding-right: 5vw;
+    justify-content: space-evenly;
+    }
+    .langthrough6cont{
+        padding-left: 5vw;
+        padding-top: 2vw;
+        flex-direction: column;
+        font-size:13vw;
+    }
+    .alllangcont{
+        /* background-color: purple; */
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .langbox{
+        padding-bottom: 4vw;
+        font-size:5vw;
+    }
 }

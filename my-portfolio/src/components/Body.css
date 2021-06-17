@@ -3,7 +3,7 @@
     /* padding-left: 31vw;
     padding-right: 30vw; */
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background-color:thistle;
     display:flex;
     flex-direction: row;
@@ -32,18 +32,30 @@
     /* background-color: khaki; */
     border-style: outset;
     border-radius: 2vw;
-    border-color:burlywood;
+
+    border-color:palegreen;
+    border-width: .4rem;
+    border-top-width: 0vw;
+    border-bottom-width: 0vw;
     /* width: 110%;
     height: 110%; */
     padding:2vw;
     left:-5vw;
-    transition-property: transform, border-radius;
+    transition-property: transform, border-top-width, border-bottom-width, border-left-width, border-right-width,border-top-left-radius,border-top-right-radius;
     transition-timing-function: linear;
-    transition-duration: .2s;
+    transition-duration: .15s;
 }
 .outerbordercont:hover{
-    transform:scale(1.1);
-    border-radius: 10% / 50%;
+    /* transform:scale(1.1); */
+    /* border-radius: 10% / 50%; */
+    /* border-radius: 100px / 120px; */
+    border-width: .4rem;
+    border-top-width: .4vw;
+    border-bottom-width: .4vw;
+    /* border-right-width: 0vw; */
+    /* border-top-left-radius: 0vw;
+    border-bottom-right-radius: 0vw; */
+
     /* padding:2vw; */
 }
 
@@ -51,33 +63,48 @@
     /* background-color: teal; */
     /* width:30vw; */
     /* text-align: center; */
-    font-size: 3vw;
+    font-size: 2.5rem;
     
 }
 .descriptioncont{
     padding-top: 1.5vw; 
     padding-left: 3.5vw;
     /* background-color: lawngreen; */
-    /* border-width:.5vw;
-    border-color:lightblue;
-    border-style: solid;
-    border-radius: 1vw;
-*/
+
     /* i want a corner in top left, and bottom right for this text box somehow */
-    font-size: 2vw;
+    font-size: 1.5rem;
 }
 /* mediaquery for iphonex */
 @media only screen and (max-width:800px){
     .aboutmecont{
-        font-size:8vw;
+        font-size:6vw;
     }
     .descriptioncont{
-        padding-top: 5vh;
-        font-size:5vw;
+        /* padding-top: 2vh; */
+        font-size:4.5vw;
     }
     .Bodycont{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .outerbordercont{
+        border-left-width: 1vw;
+        border-right-width: 1vw;
+        /* padding:2vw; */
+    }
+    .outerbordercont:hover{
+        /* transform:scale(1.1); */
+        /* border-radius: 10% / 50%; */
+        /* border-radius: 100px / 120px; */
+        /* border-width: .4rem; */
+        border-top-width: 1vw;
+        border-bottom-width: 1vw;
+        /* border-right-width: 0vw; */
+        /* border-top-left-radius: 0vw;
+        border-bottom-right-radius: 0vw; */
+    
+        /* padding:2vw; */
     }
 }

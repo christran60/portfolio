@@ -1,0 +1,18 @@
+.Body3cont{
+width: 100vw;
+height:100vh;
+background-color:lightgoldenrodyellow;
+display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.projectscont{
+background-color:lightgray;
+width:50%;
+/* height:50%; */
+position:relative;
+display:flex;
+flex-direction: column;
+}

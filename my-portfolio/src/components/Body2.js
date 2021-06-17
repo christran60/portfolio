@@ -4,32 +4,44 @@ function Body2() {
     return (
         <div className="Body2cont">
             <div className="Languagescont">
-                <div className="langbox">
-                Languages
+                <div className="outerbordercont">
+
                 </div>
-            </div>
+                
+                <div className="langbox">
+               Languages & frameworks I've worked with! 
+                </div>
+                <div className="alllangcont">
             <div className="langthrough3cont">
-            <div className="l1">
 
-            </div>
-            <div className="l2">
+            {/* c++ icon font */}
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
+            <i class="devicon-cplusplus-line"></i>
 
-            </div>
-            <div className="l3">
+            {/* css icon font */}
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
+            <i class="devicon-css3-plain"></i>
 
-            </div>
+            {/* html icon font */}
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
+            <i class="devicon-html5-plain"></i>
+
             </div>
             <div className="langthrough6cont">
- <div className="l4">
-                
-            </div> 
-            <div className="l5">
-                
-                </div>
-                <div className="l6">
-                
-                </div>
+                {/* react icon font */}
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
+                <i class="devicon-react-original"></i>
+
+                {/* js icon font */}
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
+                <i class="devicon-javascript-plain"></i>
+
+                {/* python icon font */}
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
+                <i class="devicon-python-plain"></i>
             </div>
+            </div>
+        </div>
         </div>
     )
 }

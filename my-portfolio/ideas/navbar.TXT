@@ -1,0 +1,2 @@
+MOBILE:
+create up and down arrows to jump to next section instead of pc nav bar being hidden in hamburger menu
