@@ -9,7 +9,9 @@ function Body2() {
                 </div>
                 
                 <div className="langbox">
-               Languages & frameworks I've worked with! 
+                    <div className="actuallang">
+                        Skills
+                    </div>
                 </div>
                 <div className="alllangcont">
             <div className="langthrough3cont">

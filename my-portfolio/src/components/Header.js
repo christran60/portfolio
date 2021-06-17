@@ -5,23 +5,23 @@ function Header() {
     return (
         <div className="Headcontainer">
             <div className="nameandbiocontainer">
-            <div className="introcont">
-                Hi! I'm
-            </div>
+            
+                <div className="introcont">
+                    Hi! I'm
+                </div>
                 <div className="namecont">
-                Christopher Tran
+                    Christopher Tran
                 </div>
                 {/* biocont is CV link */}
                 <div className="biocont">
-                <a className="cvlink" href="https://github.com/christran60/portfolio/tree/master/my-portfolio" target="_blank">CV here!</a>
+                    <a className="cvlink" href="https://github.com/christran60/portfolio/tree/master/my-portfolio" target="_blank">CV here!</a>
                 </div>
             </div>
-            
-         <div className=" piccontainer  ">
-                <div className="image">
-                    <img className="actualpfp" src={pfp}/>
-                </div>
-            </div> 
+            <div className=" piccontainer  ">
+                    <div className="image">
+                        <img className="actualpfp" src={pfp}/>
+                    </div>
+                </div> 
         </div>
     )
 }

@@ -1,11 +1,6 @@
 
 .actualpfp{
-    /* height:15rem; */
     width:15rem;
-    /* border-radius:13vw; */
-    /* margin-bottom: -.5rem; */
-    /* padding:4px; */
-    /* overflow: hidden; */
     border-style: solid;
     border-radius:10rem;
     border-width: .5rem;
@@ -13,8 +8,6 @@
 
 }
 .introcont{
-  
-    /* display: flex; */
     font-size: 2.5rem;
     padding-bottom: .55rem;
     
@@ -61,17 +54,12 @@
     display:flex;
     flex-direction: row;
     justify-content: center;
-    /* justify-content: ; */
 }
 .nameandbiocontainer{
-      /* text currently doesnt scale properly with mobile devices idk why */
-      /* watch vid on mobile scaling */
     /* background-color: chocolate; */
     display:flex;
     flex-direction: column;
-    /* justify-content:space-evenly; */
     justify-content: center;
-    /* align-items:left; */
 
 }
 .piccontainer{
@@ -83,15 +71,6 @@
     flex-direction: column;
     justify-content: center;
     margin-left: 8rem;
-    /* height:24vw; */
-    /* padding:4px; */
-    /* width: 50vw; */
-    /* border-radius:13vw;
-    border-style:solid;
-    border-width: .65vw;
-    border-color:darkseagreen; */
-
-
 }
 /* mediaquery for iphonex */
 @media only screen and (max-width:810px){
@@ -115,11 +94,9 @@
     .biocont{
         font-size: 4vw;
         padding-bottom: 4vh;
-        /* padding-top: vh; */
     }
 
     .cvlink{
-    /* background-color: teal; */
     display: flex;
     justify-content: center;
     width:20vw;

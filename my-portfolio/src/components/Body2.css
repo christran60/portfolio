@@ -12,29 +12,36 @@
 /* have prog language right under icon, so employers can ctrl f and look for s */
 .Languagescont{
     width:50%;
-    /* height:50%; */
     position:relative;
     display:flex;
     flex-direction: column;
-    /* background-color: snow; */
 }
 .langbox{
+    /* background-color: thistle; */
     padding-top: 1vw;
-    /* background-color: slategray; */
-    /* text-align: left; */
-    font-size: 1.8rem;
+    display: flex;
+    flex-direction: row;
 }
+.actuallang{
+    font-size: 2.5rem;
+    /* background-color:thistle; */
+}
+.langbox::after{
+    content: "";
+    margin-top: 3vh;
+    margin-left: 1vw;
+    display: block;
+    width: 100%;
+    height: .2rem;
+    background-color: #f0f0f0;
+}
+
 .langthrough3cont{
     padding-top: 4.5vw; 
-    /* padding-left: 3.5vw; */
-    /* background-color: lightcoral; */
-    /* position: relative;  */
-    /* border-radius: 20%; */
     border-top-width: 0vw;
     border-left-width: 0vw;
     border-right-width: 0vw;
     border-color:white;
-    /* border-bottom-width: 1px; */
     padding-bottom: 1vw;
     border-style: solid;
     display:flex;
@@ -44,55 +51,43 @@
     font-size: 5rem;
 }
 .devicon-cplusplus-line{
-    /* font-size: 5rem; */
     color:white;
-    /* background-color: purple; */
     border-radius: 20%;
     border-width: .2rem;
     border-style: solid;
     padding:.3vw;
 }
 .devicon-css3-plain{
-    /* font-size: 5rem; */
     color:white;
-    /* background-color: purple; */
     border-radius: 20%;
     border-width: .2rem;
     border-style: solid;
     padding:.3vw;
 }
 .devicon-html5-plain{
-    /* font-size:5rem; */
     color:white;
     padding:.3vw;
-    /* background-color: purple; */
     border-radius: 20%;
     border-width: .2rem;
     border-style: solid;
 }
 .devicon-react-original{
-    /* font-size:5rem; */
     color:white;
     padding: .3vw;
-    /* background-color: purple; */
     border-radius: 20%;
     border-width: .2rem;
     border-style: solid;
 }
 .devicon-javascript-plain{
-    /* font-size:5rem; */
     color:white;
     padding: .3vw;
-    /* background-color: purple; */
     border-radius: 20%;
     border-width: .2rem;
     border-style: solid;
 }
 .devicon-python-plain{
-    /* font-size:5rem; */
     color:white;
     padding:.3vw;
-    /* background-color: purple; */
     border-radius: 20%;
     border-width: .2rem;
     border-style: solid;
@@ -100,17 +95,12 @@
 .langthrough6cont{
     font-size: 5rem;
     padding-top: 1vw; 
-    
-    /* padding-left: 3.5vw; */
-    /* background-color: lightcoral; */
-    /* position: relative;  */
     display:flex;
     flex-direction: row; 
     align-items: center;
     justify-content: space-evenly;
 }
 .alllangcont{
-    /* background-color: purple; */
 }
 @media only screen and (max-width:700px){
     .langthrough3cont{
@@ -132,14 +122,15 @@
         font-size:13vw;
     }
     .alllangcont{
-        /* background-color: purple; */
         display:flex;
         flex-direction: row;
         justify-content: center;
-        /* align-items: center; */
     }
     .langbox{
         padding-bottom: 4vw;
         font-size:5vw;
+    }
+    .actuallang{
+        font-size: 2rem;
     }
 }
