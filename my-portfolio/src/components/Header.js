@@ -1,5 +1,6 @@
 import React from 'react'
-import pfp from "../images/bestpicofmeremovedbg.png"
+// import pfp from "../images/bestpicofmecroppednobg.png"
+import pfp from "../images/bestpicofmecropped.jpg"
 import "./Header.css"
 function Header() {
     return (

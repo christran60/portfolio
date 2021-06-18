@@ -22,7 +22,7 @@ function Body() {
              
 
                 <div className="descriptioncont">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque unde aut asperiores. Molestias, ex non?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quidem ad, enim repellendus facilis quibusdam.
                 </div>
 
             </div>
