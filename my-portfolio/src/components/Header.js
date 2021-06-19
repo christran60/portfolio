@@ -15,7 +15,7 @@ function Header() {
                 </div>
                 {/* biocont is CV link */}
                 <div className="biocont">
-                    <a className="cvlink" href="https://github.com/christran60/portfolio/tree/master/my-portfolio" target="_blank">CV here!</a>
+                    <a className="cvlink" href="https://github.com/christran60/portfolio/tree/master/my-portfolio" target="_blank">Resume!</a>
                 </div>
             </div>
             <div className=" piccontainer  ">

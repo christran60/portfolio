@@ -93,6 +93,12 @@
     border-style: solid;
 }
 .langthrough6cont{
+    /* color:white;
+    padding:.3vw;
+    border-radius: 20%;
+    border-width: .2rem;
+    border-style: solid; */
+
     font-size: 5rem;
     padding-top: 1vw; 
     display:flex;
@@ -112,6 +118,28 @@
     border-bottom-width: 0px;
     padding-right: 5vw;
     justify-content: space-evenly;
+    }
+    .devicon-cplusplus-line{
+        margin-bottom: 1vh;
+        padding: 1vw;
+    }
+    .devicon-css3-plain{
+        margin-bottom: 1vh;
+        padding: 1vw;
+    }
+    .devicon-react-original{
+        margin-bottom: 1vh;
+        padding: 1vw;
+    }
+    .devicon-javascript-plain{
+        margin-bottom: 1vh;
+        padding: 1vw;
+    }
+    .devicon-html5-plain{
+        padding: 1vw;
+    }
+    .devicon-python-plain{
+        padding: 1vw;
     }
     .langthrough6cont{
         padding-left: 5vw;

@@ -1,12 +1,11 @@
 
 .actualpfp{
-    width:19rem;
+    width:17rem;
     /* do something with filter here, then on hover revert to original */
     border-style: solid;
     border-radius:10rem;
-    border-width: .5rem;
+    border-width: .5rem; 
     border-color:darkseagreen; 
-
 }
 .introcont{
     font-size: 2.5rem;
@@ -111,8 +110,8 @@
     border-color:palegreen;
 }
     .actualpfp{
-        width:45vw;
-        border-width: 1vw;
+        width:40vw;
+        border-width: .4rem;
     }
 
 }
