@@ -59,7 +59,7 @@
 }
 .aboutmecont::after {
   content: "";
-  margin-top: 3vh;
+  margin-top: 1.85rem;
   margin-left: 1vw;
   display: block;
   width: 100%;
@@ -114,6 +114,6 @@
     margin-left: 4vw;
   }
   .aboutmecont::after {
-    margin-top: 2.6vh;
+    margin-top: 1.5rem;
   }
 }

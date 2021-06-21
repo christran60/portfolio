@@ -1,12 +1,14 @@
 .Body3cont {
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   background-color: slategray;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
   align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
 }
 .projectscont {
   /* background-color:lightgray; */
@@ -22,7 +24,7 @@
 }
 .projectscont::after {
   content: "";
-  margin-top: 3vh;
+  margin-top: 1.8rem;
   margin-left: 1vw;
   display: block;
   width: 100%;
@@ -33,7 +35,7 @@
     /* background-color:black; */
     display: flex;
     flex-direction: row;
-    width:50vw;
+    width:50%;
 
     /* border separating projects (can c/p) */
     border-style: solid;
@@ -61,7 +63,7 @@
 .projectname {
     display: flex;
     /* background-color: aquamarine; */
-    font-size:1.75rem;
+    font-size:2.25rem;
     padding-bottom: 2vh;
     /* position: ; */
     /* margin-left: auto; */
@@ -87,11 +89,62 @@
     padding-top: .5vh;
     word-spacing: 1rem;
     display: flex;
+    /* font-size: .5rem; */
     flex-direction: row-reverse;
     /* justify-content: space-evenly; */
     /* margin-left: auto; */
 }
 .website{
-    width:34rem;
-    height:20rem;
+    width:40rem;
+    height:30rem;
+}
+@media only screen and (max-width: 700px) {
+  .projectimg{
+    padding-top: 4vh;
+}
+  .projectcont{
+    display: flex;
+    flex-direction: column-reverse;
+    width:75vw;
+    padding-bottom: 5vh;
+}
+.website{
+    width:75vw;
+    height:20vh;
+}
+.projectdescription{
+  
+  width:96%;
+  padding:10px;
+  font-size: .9rem;
+  margin-left: 0rem;
+}
+.languagesp{
+  padding-top: .5rem;
+  flex-direction: row;
+  font-size:.8rem;
+}
+.projectscont {
+  /* background-color:lightgray; */
+  width: 75%;
+  /* height:50%; */
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-bottom:5vh;
+}
+.projectnamecont {
+  /* display:flex; */
+  flex-direction: row;
+}
+.projectwordbox{
+  font-size: 2rem;
+}
+.projectname{
+  font-size: 1.75rem;
+
+}
+.projectscont::after {
+margin-top:1.5rem;
+}
 }

@@ -27,7 +27,7 @@
 }
 .langbox::after {
   content: "";
-  margin-top: 3vh;
+  margin-top: 1.7rem;
   margin-left: 1vw;
   display: block;
   width: 100%;
@@ -158,7 +158,7 @@
   .actuallang {
     font-size: 2rem;
   }
-  .langbox::after{
-    margin-top: 2.6vh;
+  .langbox::after {
+    margin-top: 1.5rem;
   }
 }
