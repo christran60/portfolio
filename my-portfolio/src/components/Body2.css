@@ -1,162 +1,164 @@
-.Body2cont{
-
-    width: 100vw;
-    height: 100vh;
-    background-color:powderblue;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    align-items: center;
+.Body2cont {
+  width: 100vw;
+  height: 100vh;
+  background-color: powderblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  align-items: center;
 }
 /* have prog language right under icon, so employers can ctrl f and look for s */
-.Languagescont{
-    width:50%;
-    position:relative;
-    display:flex;
-    flex-direction: column;
+.Languagescont {
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
-.langbox{
-    /* background-color: thistle; */
-    padding-top: 1vw;
-    display: flex;
-    flex-direction: row;
+.langbox {
+  /* background-color: thistle; */
+  padding-top: 1vw;
+  display: flex;
+  flex-direction: row;
 }
-.actuallang{
-    font-size: 2.5rem;
-    /* background-color:thistle; */
+.actuallang {
+  font-size: 2.5rem;
+  /* background-color:thistle; */
 }
-.langbox::after{
-    content: "";
-    margin-top: 3vh;
-    margin-left: 1vw;
-    display: block;
-    width: 100%;
-    height: .2rem;
-    background-color: #f0f0f0;
+.langbox::after {
+  content: "";
+  margin-top: 3vh;
+  margin-left: 1vw;
+  display: block;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #f0f0f0;
 }
 
-.langthrough3cont{
-    padding-top: 3vh; 
-    border-top-width: 0vw;
-    border-left-width: 0vw;
-    border-right-width: 0vw;
-    border-color:white;
-    padding-bottom: 1vw;
-    border-style: solid;
-    display:flex;
-    flex-direction: row; 
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 5rem;
+.langthrough3cont {
+  padding-top: 3vh;
+  border-top-width: 0vw;
+  border-left-width: 0vw;
+  border-right-width: 0vw;
+  border-color: white;
+  padding-bottom: 1vw;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 5rem;
 }
-.devicon-cplusplus-line{
-    color:white;
-    border-radius: 20%;
-    border-width: .2rem;
-    border-style: solid;
-    padding:.3vw;
+.devicon-cplusplus-line {
+  color: white;
+  border-radius: 20%;
+  border-width: 0.2rem;
+  border-style: solid;
+  padding: 0.3vw;
 }
-.devicon-css3-plain{
-    color:white;
-    border-radius: 20%;
-    border-width: .2rem;
-    border-style: solid;
-    padding:.3vw;
+.devicon-css3-plain {
+  color: white;
+  border-radius: 20%;
+  border-width: 0.2rem;
+  border-style: solid;
+  padding: 0.3vw;
 }
-.devicon-html5-plain{
-    color:white;
-    padding:.3vw;
-    border-radius: 20%;
-    border-width: .2rem;
-    border-style: solid;
+.devicon-html5-plain {
+  color: white;
+  padding: 0.3vw;
+  border-radius: 20%;
+  border-width: 0.2rem;
+  border-style: solid;
 }
-.devicon-react-original{
-    color:white;
-    padding: .3vw;
-    border-radius: 20%;
-    border-width: .2rem;
-    border-style: solid;
+.devicon-react-original {
+  color: white;
+  padding: 0.3vw;
+  border-radius: 20%;
+  border-width: 0.2rem;
+  border-style: solid;
 }
-.devicon-javascript-plain{
-    color:white;
-    padding: .3vw;
-    border-radius: 20%;
-    border-width: .2rem;
-    border-style: solid;
+.devicon-javascript-plain {
+  color: white;
+  padding: 0.3vw;
+  border-radius: 20%;
+  border-width: 0.2rem;
+  border-style: solid;
 }
-.devicon-python-plain{
-    color:white;
-    padding:.3vw;
-    border-radius: 20%;
-    border-width: .2rem;
-    border-style: solid;
+.devicon-python-plain {
+  color: white;
+  padding: 0.3vw;
+  border-radius: 20%;
+  border-width: 0.2rem;
+  border-style: solid;
 }
-.langthrough6cont{
-    /* color:white;
+.langthrough6cont {
+  /* color:white;
     padding:.3vw;
     border-radius: 20%;
     border-width: .2rem;
     border-style: solid; */
 
-    font-size: 5rem;
-    padding-top: 1vw; 
-    display:flex;
-    flex-direction: row; 
-    align-items: center;
-    justify-content: space-evenly;
+  font-size: 5rem;
+  padding-top: 1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
-@media only screen and (max-width:700px){
-    .langthrough3cont{
-        padding-top:2vw;
+@media only screen and (max-width: 700px) {
+  .langthrough3cont {
+    padding-top: 2vw;
     flex-direction: column;
     font-size: 13vw;
     border-top-width: 0vw;
     border-left-width: 0vw;
-    border-right-width: .2rem;
-    border-color:white;
+    border-right-width: 0.2rem;
+    border-color: white;
     border-bottom-width: 0px;
     padding-right: 5vw;
     justify-content: space-evenly;
-    }
-    .devicon-cplusplus-line{
-        margin-bottom: 1vh;
-        padding: 1vw;
-    }
-    .devicon-css3-plain{
-        margin-bottom: 1vh;
-        padding: 1vw;
-    }
-    .devicon-react-original{
-        margin-bottom: 1vh;
-        padding: 1vw;
-    }
-    .devicon-javascript-plain{
-        margin-bottom: 1vh;
-        padding: 1vw;
-    }
-    .devicon-html5-plain{
-        padding: 1vw;
-    }
-    .devicon-python-plain{
-        padding: 1vw;
-    }
-    .langthrough6cont{
-        padding-left: 5vw;
-        padding-top: 2vw;
-        flex-direction: column;
-        font-size:13vw;
-    }
-    .alllangcont{
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .langbox{
-        padding-bottom: 4vw;
-        font-size:5vw;
-    }
-    .actuallang{
-        font-size: 2rem;
-    }
+  }
+  .devicon-cplusplus-line {
+    margin-bottom: 1vh;
+    padding: 1vw;
+  }
+  .devicon-css3-plain {
+    margin-bottom: 1vh;
+    padding: 1vw;
+  }
+  .devicon-react-original {
+    margin-bottom: 1vh;
+    padding: 1vw;
+  }
+  .devicon-javascript-plain {
+    margin-bottom: 1vh;
+    padding: 1vw;
+  }
+  .devicon-html5-plain {
+    padding: 1vw;
+  }
+  .devicon-python-plain {
+    padding: 1vw;
+  }
+  .langthrough6cont {
+    padding-left: 5vw;
+    padding-top: 1vw;
+    flex-direction: column;
+    font-size: 13vw;
+  }
+  .alllangcont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .langbox {
+    padding-bottom: 4vw;
+    font-size: 5vw;
+  }
+  .actuallang {
+    font-size: 2rem;
+  }
+  .langbox::after{
+    margin-top: 2.6vh;
+  }
 }
