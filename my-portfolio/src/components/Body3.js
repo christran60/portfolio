@@ -6,6 +6,9 @@ function Body3() {
   // let pics = [website, websitetemp];
   return (
     <div className="Body3cont">
+      <div className="omegaprojectcont">
+
+      
       <div className="projectscont">
         {/* <div className="outerbordercont"></div> */}
         <div className="projectwordbox">Projects</div>
@@ -30,7 +33,7 @@ function Body3() {
         </div>
       </div>
 
-
+      </div>
     </div>
   );
 }
