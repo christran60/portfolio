@@ -82,11 +82,12 @@
 .projectdescription{
     /* width:50%; */
     padding:20px;
-    font-size: .9vw;
+    font-size: .85vw;
     margin-left: -5rem;
     /* background-color: grey; */
     backdrop-filter: blur(15px);
     background: rgba(8, 8, 8, 0.2);
+    border-radius: 1rem;
     /* filter: */
     color:white;
 }
@@ -111,7 +112,7 @@
     height:fit-content;
     
     /* border-style: solid; */
-    border-radius: 2rem;
+    border-radius: 1rem;
     /* border-width: 0.5rem; */
 }
 @media only screen and (max-width: 1000px) {
