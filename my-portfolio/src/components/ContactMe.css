@@ -1,0 +1,37 @@
+.ContactMeCont{
+    height:50vh;
+    background-color:lightyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+.supercont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titlecont{
+    font-size: 2.75vw;
+    padding-bottom: 5vh;
+}
+
+.contactmebuttoncont{
+    /* background-color: mediumaquamarine; */
+    border-radius: .5rem;
+    border-style: solid;
+    border-color: mediumaquamarine;
+
+    padding:.8rem;
+}
+.contactmebuttoncont:hover{
+    background-color:mediumaquamarine;
+    color:lightyellow;  
+}
+
+.contactlink{
+    font-size: 1.5vw;
+}
