@@ -19,21 +19,36 @@
     padding-bottom: 5vh;
 }
 
-.contactmebuttoncont{
-    /* background-color: mediumaquamarine; */
+
+.contactlink:link{
+    color: black;
+    text-decoration: none;
+}
+.contactlink:visited{
+    color:black;
+}
+.contactlink:hover{
+    background-color:mediumaquamarine;
+    color:lightyellow;  
+}
+.contactlink{
     border-radius: .5rem;
     border-style: solid;
     border-color: mediumaquamarine;
 
     padding:.8rem;
-}
-.contactmebuttoncont:hover{
-    background-color:mediumaquamarine;
-    color:lightyellow;  
-}
-
-.contactlink{
     font-size: 1.5vw;
 }
 
+
+
 /* optimize this section for mobile */
+
+@media only screen and (max-width: 1100px) {
+    .titlecont{
+        font-size: 1.75rem;
+    }
+    .contactlink{
+        font-size: 1rem;
+    }
+}

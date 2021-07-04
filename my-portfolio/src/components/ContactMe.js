@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link } from "react-router-dom"
 import "./ContactMe.css"
 function ContactMe() {
     return (
@@ -7,13 +8,11 @@ function ContactMe() {
                 <div className="titlecont">
                     Get Connected With Me! 
                 </div>
-                <div className="contactmebuttoncont">
-                    <a
+                    <Link to ="/ContactPage"
                         className="contactlink"
                         >
                         Contact Me
-                    </a>
-                    </div>
+                    </Link>
             </div>
         </div>
     )

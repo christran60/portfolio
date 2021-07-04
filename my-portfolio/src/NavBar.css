@@ -1,0 +1,11 @@
+.NavBarcont{
+    position: -webkit-sticky;
+    background-color: cornflowerblue;
+    position:sticky;
+    top:0;
+    width: 100%;
+    height: 10vh;
+}
+.Links{
+    align-items: right;
+}

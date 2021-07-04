@@ -13,6 +13,7 @@ function Body3() {
         {/* <div className="outerbordercont"></div> */}
         <div className="projectwordbox">Projects</div>
       </div>
+
       {/* when adding another project, c/p all of this and just replace images and texts */}
       {/* all images should be 544x320*/}
 
@@ -32,6 +33,8 @@ function Body3() {
           </div>
         </div>
       </div>
+      
+{/* c/p all above to add another */}
 
       </div>
     </div>

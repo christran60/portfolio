@@ -12,7 +12,7 @@ function Header() {
         <div className="biocont">
           <a
             className="cvlink"
-            href="https://github.com/christran60/portfolio/tree/master/my-portfolio"
+            href="https://docs.google.com/document/d/1gowALDV-GSN5m80kZ-KGjs1kvQ62_JHBXO0Bs_BSD6s/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
