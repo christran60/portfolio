@@ -1,15 +1,22 @@
 .NavBarcont {
+    display:flex;
+    flex-direction: row;
   overflow: hidden;
   position: -webkit-sticky;
   background-color: cornflowerblue;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 0px;
   width: 100%;
-  height: 10vh;
+  height: 5vh;
+  background-color: rgba(10, 25, 47, 0.85);
+  backdrop-filter: blur(10px);
+  justify-content: space-between;
 }
 .Links {
-  align-items: right;
+    background-color:crimson;
+  float:right;
 }
 .Logo{
-    
+    background-color: cornsilk;
+    /* height:5vh; */
 }
