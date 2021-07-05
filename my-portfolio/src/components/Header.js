@@ -4,7 +4,7 @@ import pfp from "../images/bestpicofmecropped.jpg";
 import "./Header.css";
 function Header() {
   return (
-    <div className="Headcontainer">
+    <div className="Headcontainer" id="Home">
       <div className="nameandbiocontainer">
         <div className="introcont">Hi! I'm</div>
         <div className="namecont">Christopher Tran</div>

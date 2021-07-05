@@ -5,7 +5,7 @@ function Body() {
   //include about me section here
   //let skills = ["C++", "C", "HTML", "CSS", "Javascript", "React"]
   return (
-    <div className="Bodycont">
+    <div className="Bodycont" id="AboutMe">
       <div className="actualbiocont">
         <div className="outerbordercont"></div>
 

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Body2.css"
 function Body2() {
     return (
-        <div className="Body2cont">
+        <div className="Body2cont" id="Technologies">
             <div className="Languagescont">
                 <div className="outerbordercont">
 

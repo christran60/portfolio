@@ -5,7 +5,7 @@ import website from "../images/website.PNG";
 function Body3() {
   // let pics = [website, websitetemp];
   return (
-    <div className="Body3cont">
+    <div className="Body3cont" id = "Projects">
       <div className="omegaprojectcont">
 
       

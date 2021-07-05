@@ -1,22 +1,55 @@
-.NavBarcont {
-    display:flex;
-    flex-direction: row;
-  overflow: hidden;
+ .NavBarcont {
+  background-color: rgba(10, 25, 47, 0.85);
+  backdrop-filter: blur(10px);
   position: -webkit-sticky;
-  background-color: cornflowerblue;
   position: fixed;
   top: 0px;
   width: 100%;
-  height: 5vh;
-  background-color: rgba(10, 25, 47, 0.85);
-  backdrop-filter: blur(10px);
-  justify-content: space-between;
-}
-.Links {
-    background-color:crimson;
-  float:right;
-}
+  height: 7.5vh;
+    /* display:flex;
+    flex-direction: row;
+  overflow: hidden;
+
+  justify-content: space-between; */
+} 
 .Logo{
-    background-color: cornsilk;
-    /* height:5vh; */
+    height:7.5vh;
+    padding-left: 10px; 
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  /* background-color: rgba(10, 25, 47, 0.85);
+  backdrop-filter: blur(10px); */
+}
+li {
+  float: right;
+  padding-right: 35px;
+}
+
+li a {
+  font-size: 1.35rem;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.contact{
+  border-style: solid;
+  border-color: white;
+  padding: 10px;
+  margin-top: 16px;
+  border-radius: 7px;
 }
