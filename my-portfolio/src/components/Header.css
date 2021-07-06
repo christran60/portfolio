@@ -51,6 +51,7 @@
 .Headcontainer {
   /* width: 100vw; */
   height: 100vh;
+  /* try this background: #232323; */
   background-color: lemonchiffon;
   display: flex;
   flex-direction: row;
