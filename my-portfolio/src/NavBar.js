@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import "./NavBar.css";
 import { HashLink } from "react-router-hash-link";
 import Logo from "/mnt/c/wsl/github/myportfolio/portfolio/my-portfolio/src/images/ded.png"
-
+import { slide as Menu } from 'react-burger-menu';
 function NavBar() {
   return (
     // make contact me link different from other links so the user knows it goes to a different page
     // underline active page/section
+
     <div className="NavBarcont">
 
       <ul className= "nonmobile">
@@ -30,6 +31,7 @@ function NavBar() {
           <HashLink to="/#Home">Home</HashLink>
         </li>
       </ul>
+
 <nav>
       <ul className= "mobile">
         <li>
