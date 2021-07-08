@@ -32,14 +32,14 @@ li a {
   font-size: 1rem;
   display: block;
   color: white;
-  text-align: center;
+  /* text-align: center; */
   padding: 25px 16px;
   text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  color: #111;
 }
 
 .contact{
@@ -48,15 +48,16 @@ li a:hover {
   padding: 10px;
   margin-top: 10px;
   border-radius: 7px;
+  text-align: center;
+}
+.contact:hover{
+  background-color: #111;
+  color:white;
 }
 
-.mobile{
-  display:none;
-}
+
 @media only screen and (max-width: 1000px) {
-  /* .mobile{
-    display:block;
-  } */
+/* Position and sizing of burger button */
 
   .nonmobile{
     display:none;

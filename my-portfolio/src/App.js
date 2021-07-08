@@ -5,12 +5,16 @@ import Home from "./Home";
 import NavBar from './NavBar'
 import ContactPage from "./ContactPage";
 import { Route } from "react-router-dom";
+import Sidebar from './Sidebar';
 function App() {
   return (
-    <div className="App">
+        <div className="App" id="outer-container">
+          <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+      <div id="page-wrap">
       <NavBar />
       <Route exact path="/" component={Home} />
       <Route exact path="/ContactPage" component={ContactPage} />
+    </div>
     </div>
   );
 }

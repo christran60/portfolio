@@ -2,38 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 import { HashLink } from "react-router-hash-link";
-import Logo from "/mnt/c/wsl/github/myportfolio/portfolio/my-portfolio/src/images/ded.png"
-import { slide as Menu } from 'react-burger-menu';
+import Logo from "/mnt/c/wsl/github/myportfolio/portfolio/my-portfolio/src/images/ded.png";
+
 function NavBar() {
   return (
     // make contact me link different from other links so the user knows it goes to a different page
     // underline active page/section
 
     <div className="NavBarcont">
-
-      <ul className= "nonmobile">
-        <li>
-          <Link to="/ContactPage" className="contact">
-            Contact Me
-          </Link>
-        </li>
-        <li>
-          <HashLink to="/#Projects">Projects</HashLink>
-        </li>
-        <li>
-          <HashLink to="/#Technologies">Technologies</HashLink>
-        </li>
-
-        <li>
-          <HashLink to="/#AboutMe">About Me</HashLink>
-        </li>
-        <li>
-          <HashLink to="/#Home">Home</HashLink>
-        </li>
-      </ul>
-
-<nav>
-      <ul className= "mobile">
+      <ul className="nonmobile">
         <li>
           <Link to="/ContactPage" className="contact">
             Contact Me
@@ -55,13 +32,10 @@ function NavBar() {
       </ul>
 
       <div className="Supercont">
-      <img className="Logo" src={Logo} alt="logo"/>
+        <img className="Logo" src={Logo} alt="logo" />
       </div>
-      </nav>
     </div>
-    
   );
-  
 }
 
 export default NavBar;
