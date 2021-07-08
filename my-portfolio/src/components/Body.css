@@ -8,6 +8,13 @@
   position: relative;
   align-items: center;
 }
+.border{
+  /* background-color: teal; */
+
+  position: absolute;
+  
+
+}
 .actualbiocont {
   width: 50%;
   position: relative;
@@ -15,27 +22,30 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: aquamarine; */
+  /* background-color:teal; */
+
 }
 
-.outerbordercont {
-  width: 100%;
-  height: 100%;
+/* .outerbordercont { */
+  /* background-color: teal; */
+  /* width: 100%;
+  height: 100%; 
   position: absolute;
   border-style: solid;
   border-color: white;
   border-width: 0vw;
   border-radius: 3vw;
-  padding: 2vw;
+  padding: 10vw; 
   left: -2vw;
+  /* right:-2310vw; */
   /* top:3vh; */
-  transition-property: transform, border-top-width, border-bottom-width,
+   /* transition-property: transform, border-top-width, border-bottom-width,
     border-left-width, border-right-width, border-top-left-radius,
     border-top-right-radius;
   transition-timing-function: ease-in-out;
-  transition-duration: 0.15s;
-}
-.outerbordercont:hover {
+  transition-duration: 0.15s; */
+/* } */
+/* .outerbordercont:hover { */
   /* border-top-width: .4vw; */
   /* border-bottom-width: .4rem;
     border-right-width:.4rem;
@@ -43,9 +53,9 @@
     border-bottom-left-radius:2vw;
     border-bottom-right-radius: 2vw;
      */
-  border-right-width: 0.3rem;
-  border-left-width: 0.3rem;
-}
+  /* border-right-width: 0.3rem;
+  border-left-width: 0.3rem; */
+/* } */
 
 .aboutmecont {
   display: flex;
@@ -55,7 +65,7 @@
 .actualnamecont {
   /* width: 20vw; */
   font-size: 2.5rem;
-  background-color: thistle;
+  
 }
 .aboutmecont::after {
   content: "";
@@ -78,6 +88,18 @@
 @media only screen and (max-width: 700px) {
   .actualbiocont {
     width:70%;
+  }
+  .border{
+    height: 115%;
+    width:100%;
+    border-style: solid;
+    border-color: white;
+    border-bottom-width: .2rem;
+    border-left-width:0rem;
+    border-right-width: 0rem;
+    border-top-width: 0rem;
+    margin-left:1vw;
+    padding-bottom: 10vw;
   }
   .aboutmecont {
     /* font-size:6vw; */
@@ -103,19 +125,20 @@
         border-left-width: .4vw;
         border-right-width: .4vw;
     } */
-  .outerbordercont:hover {
+  /* .outerbordercont:hover { */
     /* border-bottom-width: 1vw; */
-    border-left-width: 0vw;
-    border-right-width: 0vw;
-  }
-  .outerbordercont {
-    border-bottom-width: 0.2rem;
-    border-radius: 0px;
+    /* border-left-width: 0vw;
+    border-right-width: 0vw; */
+  /* } */
+  /* .outerbordercont { */
+    /* border-bottom-width: 0.2rem;
+    border-radius: 0px; */
     /* right:2vw; */
-    width: 90%;
-    padding-top: 4vh;
-    margin-left: 4vw;
-  }
+    /* width: 97%;
+    padding-bottom: 15vh;
+    margin-left: 2vw; */
+    
+  /* } */
   .aboutmecont::after {
     margin-top: 1.5rem;
   }

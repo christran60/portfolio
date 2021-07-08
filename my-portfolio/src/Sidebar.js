@@ -9,6 +9,7 @@ function Sidebar() {
             <Menu right>
       {/* <ul className= "mobile"> */}
       <li>
+          
           <HashLink to="/#Home">Home</HashLink>
         </li>
         

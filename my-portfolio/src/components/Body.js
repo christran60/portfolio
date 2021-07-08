@@ -6,9 +6,11 @@ function Body() {
   //let skills = ["C++", "C", "HTML", "CSS", "Javascript", "React"]
   return (
     <div className="Bodycont" id="AboutMe">
+      
       <div className="actualbiocont">
-        <div className="outerbordercont"></div>
-
+      <div className="border">
+        
+        </div>
         <div className="aboutmecont">
           <div className="actualnamecont">About</div>
         </div>

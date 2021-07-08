@@ -1,6 +1,9 @@
-
+.bm-burger-button {
+    display: none;
+}
 @media only screen and (max-width: 1000px) {
 .bm-burger-button {
+    display:flex;
     position: fixed;
     width: 36px;
     height: 30px;
