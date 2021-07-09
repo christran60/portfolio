@@ -80,7 +80,7 @@
 .descriptioncont {
   padding-top: 1.5vw;
   padding-left: 0.5vw;
-
+/* add backdrop and hover effect making the backdrop transparency .85 -> 1 */
   font-size: 1.5rem;
 }
 
