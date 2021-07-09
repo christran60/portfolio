@@ -1,6 +1,12 @@
+require('dotenv').config();
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");
+
+
+// console.log("the email is:",process.env.REACT_APP_EMAIL);
+// console.log("The pw is:",process.env.REACT_APP_PASS);
+
 const nodemailer = require("nodemailer");
 
 const app = express();
@@ -12,8 +18,8 @@ app.listen(3000, () => console.log("Server Running"));
 const contactEmail = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: "ccctran@ucdavis.edu",
-      pass: "Chr!stopher916209",
+      user: process.env.REACT_APP_EMAIL,
+      pass: process.env.REACT_APP_PASS
     },
   });
   
@@ -31,7 +37,7 @@ const contactEmail = nodemailer.createTransport({
     const message = req.body.message; 
     const mail = {
       from: name,
-      to: "ccctran@ucdavis.edu",
+      to: process.env.REACT_APP_EMAIL,
       subject: "Contact Form Submission",
       html: `<p>Name: ${name}</p>
              <p>Email: ${email}</p>
@@ -41,7 +47,8 @@ const contactEmail = nodemailer.createTransport({
       if (error) {
         res.json({ status: "ERROR" });
       } else {
-        res.json({ status: "Message Sent" });
+        res.json({ status: "Message Sent!" });
+        
       }
     });
   });

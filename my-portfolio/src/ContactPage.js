@@ -25,7 +25,7 @@ const ContactPage = () => {
   };
   return (
     // <div className="Contactformcont">
-    <form onSubmit={handleSubmit} className="Contactformcont">
+    <form name="Contactform" onSubmit={handleSubmit} className="Contactformcont">
       
         <div>
         <label htmlFor="name">Name:</label>
@@ -43,6 +43,7 @@ const ContactPage = () => {
       <button type="submit">{status}</button>
       
     </form>
+
     // </div>
   );
 };
