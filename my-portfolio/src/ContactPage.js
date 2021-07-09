@@ -1,7 +1,19 @@
 import React, { useState } from "react";
 import "./ContactPage.css";
 
+import { makeStyles } from '@material-ui/core/styles';
+import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
+
+const useStyles = makeStyles(theme => ({
+  textField: {
+    // border: "1px solid blue"
+    
+  }
+}))
+
 const ContactPage = () => {
+  const classes = useStyles();
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -22,29 +34,47 @@ const ContactPage = () => {
     setStatus("Submit");
     let result = await response.json();
     alert(result.status);
+    
   };
   return (
-    // <div className="Contactformcont">
-    <form name="Contactform" onSubmit={handleSubmit} className="Contactformcont">
-      
-        <div>
-        <label htmlFor="name">Name:</label>
-        <input name="name" type="text" id="name" required />
-      </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input name="email" type="email" id="email" required />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea name="message" id="message" required />
-      </div>
-      
-      <button type="submit">{status}</button>
-      
-    </form>
+    <div className="Contactformcont">
+      <form name="Contactform" onSubmit={handleSubmit} className="Contactform">
+        <div className="nameandemailcont">
+          <div className="namecont">
+            <label htmlFor="name">Name:</label>
+            <input name="name" type="text" id="name" required />
+          </div>
+          <div className="emailcont">
+            <label htmlFor="email">Email:</label>
+            <input name="email" type="email" id="email" required />
+          </div>
+        </div>
+        
+        <div className="messagecont">
+          {/* <label htmlFor="message">Message:</label>
+          <textarea classname="mes" name="message" id="message" required /> */}
+          <TextField
+          id="message"
+          label="Type Message Here!"
+          multiline
+          rows={4}
+          className={classes.textField}
+          variant="outlined"
+        
+        />
+        </div>
 
-    // </div>
+        {/* <button type="submit">{status}</button>
+         */}
+         <div className="submit">
+
+         
+         <Button variant="contained" color="primary">
+        {status}
+      </Button>
+      </div>
+      </form>
+    </div>
   );
 };
 
