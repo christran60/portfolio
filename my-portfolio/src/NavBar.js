@@ -10,6 +10,9 @@ function NavBar() {
     // underline active page/section
 
     <div className="NavBarcont">
+      <HashLink to="/#Home" className="hashlinktohome">
+        <img className="Logo" src={Logo} alt="logo" />
+        </HashLink>
       <ul className="nonmobile">
         <li>
           <Link to="/ContactPage" className="contact">
@@ -29,11 +32,14 @@ function NavBar() {
         <li>
           <HashLink to="/#Home">Home</HashLink>
         </li>
+        <HashLink to="/#Home" className="hashlinktohome">
+        <img className="Logo" src={Logo} alt="logo" />
+        </HashLink>
       </ul>
 
-      <div className="Supercont">
-        <img className="Logo" src={Logo} alt="logo" />
-      </div>
+      {/* <div className="Supercont"> */}
+    
+      {/* </div> */}
     </div>
   );
 }

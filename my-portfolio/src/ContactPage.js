@@ -9,6 +9,17 @@ const useStyles = makeStyles((theme) => ({
   textField: {
     // border: "1px solid blue"
   },
+  inputRoot: {
+    fontSize: 30
+  },
+  labelRoot: {
+    fontSize: 30,
+    color: "grey",
+    "&$labelFocused": {
+      color: "blue"
+    }
+  },
+  labelFocused: {}
 }));
 
 const ContactPage = () => {
@@ -36,15 +47,60 @@ const ContactPage = () => {
   };
   return (
     <div className="Contactformcont">
+      
       <form name="Contactform" onSubmit={handleSubmit} className="Contactform">
+      <div className="message">
+        Send a message to me here!
+      </div>
         <div className="nameandemailcont">
+          
           <div className="namecont">
-            <label htmlFor="name">Name:</label>
-            <input name="name" type="text" id="name" required />
+             {/* <label htmlFor="name">Name:</label> */}
+            {/*<input name="name" type="text" id="name" required /> */}
+            <TextField
+          id="name"
+          label="Name"
+          type="text"
+          name="name"
+          required
+          // style={{ margin: 7 }}
+          fullWidth
+          InputProps={{ classes: { root: classes.inputRoot } }}
+          InputLabelProps={{
+            classes: {
+              root: classes.labelRoot,
+              focused: classes.labelFocused
+            }
+          }}
+          margin="normal"
+          // InputLabelProps={{
+          //   shrink: true,
+          // }}
+        />
           </div>
           <div className="emailcont">
-            <label htmlFor="email">Email:</label>
-            <input name="email" type="email" id="email" required />
+            {/* <label htmlFor="email">Email:</label> */}
+            {/* <input name="email" type="email" id="email" required /> */}
+            <TextField
+          id="email"
+          label="Email"
+          type="email"
+          name="email"
+          InputProps={{ classes: { root: classes.inputRoot } }}
+          InputLabelProps={{
+            classes: {
+              root: classes.labelRoot,
+              focused: classes.labelFocused
+            }
+          }}
+          required
+          // style={{ margin: 7 }}
+          fullWidth
+          margin="normal"
+          // InputLabelProps={{
+          //   shrink: true,
+          // }}
+        />
           </div>
         </div>
 

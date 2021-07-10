@@ -40,7 +40,7 @@ function Body2() {
 
                 {/* python icon font */}
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
-                <i class="devicon-python-plain"></i>
+                <i class="devicon-materialui-plain"></i>
             </div>
             </div>
         </div>

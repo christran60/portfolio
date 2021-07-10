@@ -16,6 +16,7 @@
   padding-bottom: 0.55rem;
 }
 .namecont {
+  /* i literally cannot change the font size of my name for some reason */
   /* background-color: aquamarine; */
   padding-bottom: 2.5rem;
   font-size: 3.5rem;
@@ -88,7 +89,7 @@
     margin-left: 0rem;
   }
   .namecont {
-    font-size: 9vw;
+    font-size: 10vw;
     padding-bottom: 2vh;
   }
   .introcont {

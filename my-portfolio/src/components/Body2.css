@@ -91,6 +91,13 @@
   border-width: 0.2rem;
   border-style: solid;
 }
+.devicon-materialui-plain{
+  color: white;
+  padding: 0.3vw;
+  border-radius: 20%;
+  border-width: 0.2rem;
+  border-style: solid;
+}
 .langthrough6cont {
   /* color:white;
     padding:.3vw;
