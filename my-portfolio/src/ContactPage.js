@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import "./ContactPage.css";
 
-import { makeStyles } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
+import { makeStyles } from "@material-ui/core/styles";
+import TextField from "@material-ui/core/TextField";
+import Button from "@material-ui/core/Button";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   textField: {
     // border: "1px solid blue"
-    
-  }
-}))
+  },
+}));
 
 const ContactPage = () => {
   const classes = useStyles();
@@ -34,7 +33,6 @@ const ContactPage = () => {
     setStatus("Submit");
     let result = await response.json();
     alert(result.status);
-    
   };
   return (
     <div className="Contactformcont">
@@ -49,30 +47,29 @@ const ContactPage = () => {
             <input name="email" type="email" id="email" required />
           </div>
         </div>
-        
+
         <div className="messagecont">
           {/* <label htmlFor="message">Message:</label>
           <textarea classname="mes" name="message" id="message" required /> */}
           <TextField
-          id="message"
-          label="Type Message Here!"
-          multiline
-          rows={4}
-          className={classes.textField}
-          variant="outlined"
-        
-        />
+            name="message"
+            id="message"
+            label="Type Message Here!"
+            multiline
+            rows={4}
+            className={classes.textField}
+            variant="outlined"
+            required
+          />
         </div>
 
         {/* <button type="submit">{status}</button>
          */}
-         <div className="submit">
-
-         
-         <Button variant="contained" color="primary">
-        {status}
-      </Button>
-      </div>
+        <div className="submit">
+          <Button type="submit" variant="contained" color="primary">
+            {status}
+          </Button>
+        </div>
       </form>
     </div>
   );

@@ -48,7 +48,7 @@ const contactEmail = nodemailer.createTransport({
         res.json({ status: "ERROR" });
       } else {
         res.json({ status: "Message Sent!" });
-        
+
       }
     });
   });
