@@ -7,7 +7,7 @@ function Header() {
     <div className="Headcontainer" id="Home">
       <div className="nameandbiocontainer">
         <div className="introcont">Hi! I'm</div>
-        <div className="namecont">Christopher Tran</div>
+        <div className="name">Christopher Tran</div>
         {/* biocont is CV link */}
         <div className="biocont">
           <a
@@ -22,7 +22,7 @@ function Header() {
       </div>
       <div className=" piccontainer  ">
         <div className="image">
-          <img className="actualpfp" src={pfp} alt="pfp"/>
+          <img className="actualpfp" src={pfp} alt="pfp" />
         </div>
       </div>
     </div>

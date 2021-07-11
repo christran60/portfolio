@@ -153,6 +153,9 @@
     flex-direction: column;
     font-size: 13vw;
   }
+  .devicon-materialui-plain{
+    padding:1vw;
+  }
   .alllangcont {
     display: flex;
     flex-direction: row;

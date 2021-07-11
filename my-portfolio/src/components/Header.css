@@ -15,11 +15,11 @@
   font-size: 2.5rem;
   padding-bottom: 0.55rem;
 }
-.namecont {
+.name {
   /* i literally cannot change the font size of my name for some reason */
   /* background-color: aquamarine; */
   padding-bottom: 2.5rem;
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 .biocont {
   font-size: 1rem;
@@ -88,7 +88,7 @@
   .piccontainer {
     margin-left: 0rem;
   }
-  .namecont {
+  .name {
     font-size: 10vw;
     padding-bottom: 2vh;
   }
@@ -111,6 +111,6 @@
   }
   .actualpfp {
     width: 40vw;
-    border-width: 0.5rem;
+    border-width: 0.45rem;
   }
 }
