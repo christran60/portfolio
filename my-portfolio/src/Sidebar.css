@@ -10,6 +10,16 @@
     right: 24px;
     top: 18px;
   }
+  
+  .sbmnav{
+    padding-top:4vh;
+    /* background-color: grey; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    letter-spacing: 1rem;
+    font-size: 2rem;
+  }
   .Sidebar{
     display: contents;
   }

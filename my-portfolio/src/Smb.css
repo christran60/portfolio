@@ -1,0 +1,55 @@
+.smbcont{
+    /* background-color: aquamarine; */
+    height: 40vh;
+    justify-content: space-between;
+    display: flex;
+    position: -webkit-sticky;
+    position: fixed;
+    flex-direction: column;
+    padding-left: 3vw;
+    font-size: 1.5rem;
+    bottom:0vh;
+    z-index: 2;
+    
+}
+.links:link{
+    color: black;
+    text-decoration: none;
+}
+.links:visited{
+    color: black;
+}
+.smbcont:after{
+    content: "";
+    display: block;
+    width: 1.5px;
+    height: 130px;
+    margin: 0px auto;
+    background-color: white;
+}
+.fa-handshake{
+    font-size: 1.1rem;
+
+}
+.fa-handshake:hover{
+    color:red;
+}
+.fa-instagram:hover{
+    color: pink;
+}
+
+.fa-github:hover{
+
+    color:darkgrey;
+}
+
+.fa-linkedin-in:hover{
+
+    color:#2867B2;
+}
+
+@media only screen and (max-width: 900px) {
+    .smbcont{
+        display:none;
+    }
+}
