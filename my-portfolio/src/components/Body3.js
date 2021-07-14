@@ -29,7 +29,7 @@ function Body3() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nulla quibusdam non maiores odio earum autem magnam impedit repellat doloribus.
           </div>
           <div className="languagesp">
-            React Javascript HTML CSS
+            React Javascript HTML CSS Material-UI
           </div>
         </div>
       </div>

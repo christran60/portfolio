@@ -1,35 +1,44 @@
 .smbcont{
     /* background-color: aquamarine; */
-    height: 40vh;
+    height: 30vh;
     justify-content: space-between;
     display: flex;
     position: -webkit-sticky;
     position: fixed;
     flex-direction: column;
     padding-left: 3vw;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     bottom:0vh;
     z-index: 2;
     
 }
+/* .links{
+    background-color: grey;
+} */
 .links:link{
-    color: black;
+    color: rgb(232, 235, 228);
     text-decoration: none;
 }
 .links:visited{
-    color: black;
+    color: rgb(232, 235, 228);
 }
 .smbcont:after{
     content: "";
     display: block;
-    width: 1.5px;
-    height: 130px;
+    width: 2px;
+    height: 90px;
     margin: 0px auto;
     background-color: white;
 }
-.fa-handshake{
-    font-size: 1.1rem;
 
+.fa-github{
+    padding-left: 3.5px;
+}
+.fa-instagram{
+    padding-left: 5px;
+}
+.fa-linkedin-in{
+    padding-left: 3.8px;
 }
 .fa-handshake:hover{
     color:red;

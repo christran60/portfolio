@@ -4,9 +4,9 @@ function Body2() {
     return (
         <div className="Body2cont" id="Technologies">
             <div className="Languagescont">
-                <div className="border">
+                {/* <div className="border">
 
-                </div>
+                </div> */}
                 
                 <div className="langbox">
                     <div className="actuallang">

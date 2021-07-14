@@ -23,7 +23,7 @@ code {
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color:rgba(10, 25, 47, 0.7);
+  background-color:rgba(153, 154, 198,.65);
   opacity: .3;
   border-radius: 20px;
 }

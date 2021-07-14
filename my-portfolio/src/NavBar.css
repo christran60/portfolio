@@ -1,5 +1,6 @@
  .NavBarcont {
-  background-color: rgba(10, 25, 47, 0.85);
+  background-color:rgba(153, 154, 198, 0.65);
+
   backdrop-filter: blur(10px);
   position: -webkit-sticky;
   position: fixed;
@@ -34,7 +35,7 @@ li {
 li a {
   font-size: .75rem;
   display: block;
-  color: white;
+  color: rgb(232, 235, 228);
   /* text-align: center; */
   padding: 25px 16px;
   text-decoration: none;
@@ -47,14 +48,15 @@ li a:hover {
 
 .contact{
   border-style: solid;
-  border-color: white;
+  border-color: rgb(232, 235, 228);
   padding: 10px;
   margin-top: 10px;
   border-radius: 7px;
   text-align: center;
+  color:rgb(232, 235, 228);
 }
 .contact:hover{
-  background-color: #111;
+  background-color: rgb(41,47,54);
   color:white;
 }
 

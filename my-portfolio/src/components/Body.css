@@ -1,7 +1,7 @@
 .Bodycont {
   /* width: 100vw; */
-  height: 75vh;
-  background-color: thistle;
+  height: 65vh;
+  background-color: rgb(41,47,54);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -63,6 +63,7 @@
   /* background-color: aquamarine; */
 }
 .actualnamecont {
+  color:rgb(232, 235, 228);
   /* width: 20vw; */
   font-size: 2.5rem;
   
@@ -74,7 +75,7 @@
   display: block;
   width: 100%;
   height: 0.2rem;
-  background-color: #f0f0f0;
+  background-color: rgb(153, 154, 198);
 }
 
 .descriptioncont {
@@ -82,18 +83,19 @@
   padding-left: 0.5vw;
 /* add backdrop and hover effect making the backdrop transparency .85 -> 1 */
   font-size: 1.5rem;
+  color:#D2D5DD;
 }
 
 /* mediaquery for iphonex */
 @media only screen and (max-width: 700px) {
   .actualbiocont {
-    width:70%;
+    width:75%;
   }
   .border{
-    height: 115%;
+    height: 130%;
     width:100%;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(153, 154, 198);
     border-bottom-width: .2rem;
     border-left-width:0rem;
     border-right-width: 0rem;

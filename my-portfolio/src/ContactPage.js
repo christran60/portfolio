@@ -14,9 +14,9 @@ const useStyles = makeStyles((theme) => ({
   },
   labelRoot: {
     fontSize: 30,
-    color: "grey",
+    color: "white",
     "&$labelFocused": {
-      color: "blue"
+      color: "rgba(153, 154, 198, 0.65);"
     }
   },
   labelFocused: {}
@@ -112,6 +112,13 @@ const ContactPage = () => {
             id="message"
             label="Type Message Here!"
             multiline
+            InputProps={{ classes: { root: classes.inputRoot } }}
+          InputLabelProps={{
+            classes: {
+              root: classes.labelRoot,
+              focused: classes.labelFocused
+            }
+          }}
             rows={4}
             className={classes.textField}
             variant="outlined"

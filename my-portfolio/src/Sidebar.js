@@ -1,5 +1,5 @@
 import React from "react";
-import { stack as Menu } from "react-burger-menu";
+import { slide as Menu } from "react-burger-menu";
 import { Link } from "react-router-dom";
 import "./Sidebar.css";
 import { HashLink } from "react-router-hash-link";

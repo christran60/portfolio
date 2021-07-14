@@ -1,12 +1,13 @@
 .Body2cont {
   /* width: 100vw; */
-  height: 70vh;
-  background-color: powderblue;
+  height: 75vh;
+  background-color: rgb(41,47,54);
   display: flex;
   flex-direction: row;
   justify-content: center;
   position: relative;
   align-items: center;
+  
 }
 /* have prog language right under icon, so employers can ctrl f and look for s */
 .Languagescont {
@@ -22,6 +23,7 @@
   flex-direction: row;
 }
 .actuallang {
+  color:rgb(232, 235, 228);
   font-size: 2.5rem;
   /* background-color:thistle; */
 }
@@ -32,7 +34,7 @@
   display: block;
   width: 100%;
   height: 0.2rem;
-  background-color: #f0f0f0;
+  background-color: rgb(153, 154, 198);
 }
 
 .langthrough3cont {
@@ -40,7 +42,7 @@
   border-top-width: 0vw;
   border-left-width: 0vw;
   border-right-width: 0vw;
-  border-color: white;
+  border-color: rgb(153, 154, 198);
   padding-bottom: 1vw;
   border-style: solid;
   display: flex;
@@ -113,14 +115,18 @@
   justify-content: space-evenly;
 }
 @media only screen and (max-width: 700px) {
-  .langthrough3cont {
+  .Languagescont{
+    width:75%;
+  }
+  /* .langthrough3cont {
+  
     padding-top: 2vw;
     flex-direction: column;
     font-size: 13vw;
     border-top-width: 0vw;
     border-left-width: 0vw;
     border-right-width: 0.2rem;
-    border-color: white;
+    border-color: rgb(153, 154, 198);
     border-bottom-width: 0px;
     padding-right: 5vw;
     justify-content: space-evenly;
@@ -170,5 +176,39 @@
   }
   .langbox::after {
     margin-top: 1.5rem;
+  } */
+  .langthrough3cont {
+  
+    padding-top: 6vh;
+    font-size:12vw;
+    padding-bottom: 3vh;
+  }
+  .langthrough6cont {
+    /* padding-: 5vw; */
+    padding-top: 3vh;
+    font-size:12vw;
+ 
+    /* font-size: 13vw; */
+  }
+  .devicon-cplusplus-line {
+    
+    padding: 1.25vw;
+  }
+  .devicon-css3-plain {
+    padding: 1.25vw;
+  }
+  .devicon-react-original {
+
+    padding: 1.25vw;
+  }
+  .devicon-javascript-plain {
+
+    padding:1.25vw;
+  }
+  .devicon-html5-plain {
+    padding: 1.25vw;
+  }
+  .devicon-materialui-plain{
+    padding:1.25vw;
   }
 }
