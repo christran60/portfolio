@@ -12,6 +12,7 @@ function App() {
         <div className="App" id="outer-container">
           <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
       <div id="page-wrap">
+
       <NavBar />
       <Smb />
       <Route exact path="/" component={Home} />

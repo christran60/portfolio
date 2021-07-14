@@ -5,6 +5,7 @@ import "./Header.css";
 function Header() {
   return (
     <div className="Headcontainer" id="Home">
+
       <div className="nameandbiocontainer">
         <div className="introcont">Hi! I'm</div>
         <div className="name">Christopher Tran</div>

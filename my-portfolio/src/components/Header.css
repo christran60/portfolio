@@ -3,6 +3,7 @@
   margin:0px;
 
 }
+
 .actualpfp {
   width: 17rem;
   /* do something with filter here, then on hover revert to original */
@@ -11,10 +12,12 @@
   border-width: 0.5rem;
   border-color: rgb(153, 154, 198);
 }
+
 .introcont {
   color: rgb(232, 235, 228);
   font-size: 1.5rem;
   padding-bottom: 0.55rem;
+  
 }
 .name {
   /* i literally cannot change the font size of my name for some reason */
@@ -53,6 +56,7 @@
   color: rgb(232, 235, 228);
 }
 .Headcontainer {
+  
   /* width: 100vw; */
   height: 100vh;
   /* try this background: #232323; */

@@ -102,6 +102,7 @@
     border-top-width: 0rem;
     margin-left:1vw;
     padding-bottom: 10vw;
+    
   }
   .aboutmecont {
     /* font-size:6vw; */
@@ -115,7 +116,7 @@
     /* font-size:4.5vw; */
     font-size: 1.25rem;
     padding-left: 2vw;
-    padding-top: -3vh;
+    padding-top: 1vh;
   }
   .Bodycont {
     flex-direction: column;
