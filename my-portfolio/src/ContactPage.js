@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./ContactPage.css";
-
+import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight"
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
@@ -10,16 +10,18 @@ const useStyles = makeStyles((theme) => ({
     // border: "1px solid blue"
   },
   inputRoot: {
-    fontSize: 30
+    fontSize: 30,
+    color: "white"
   },
   labelRoot: {
     fontSize: 30,
     color: "white",
     "&$labelFocused": {
-      color: "rgba(153, 154, 198, 0.65);"
-    }
+      color: "rgba(153, 154, 198, 0.65);",
+      borderColor:"#999AC6"
+    },
   },
-  labelFocused: {}
+  labelFocused: {},
 }));
 
 const ContactPage = () => {
@@ -47,60 +49,56 @@ const ContactPage = () => {
   };
   return (
     <div className="Contactformcont">
-      
       <form name="Contactform" onSubmit={handleSubmit} className="Contactform">
-      <div className="message">
-        Send a message to me here!
-      </div>
+        <div className="message">Send a message to me here!</div>
         <div className="nameandemailcont">
-          
           <div className="namecont">
-             {/* <label htmlFor="name">Name:</label> */}
+            {/* <label htmlFor="name">Name:</label> */}
             {/*<input name="name" type="text" id="name" required /> */}
             <TextField
-          id="name"
-          label="Name"
-          type="text"
-          name="name"
-          required
-          // style={{ margin: 7 }}
-          fullWidth
-          InputProps={{ classes: { root: classes.inputRoot } }}
-          InputLabelProps={{
-            classes: {
-              root: classes.labelRoot,
-              focused: classes.labelFocused
-            }
-          }}
-          margin="normal"
-          // InputLabelProps={{
-          //   shrink: true,
-          // }}
-        />
+              id="name"
+              label="Name"
+              type="text"
+              name="name"
+              required
+              // style={{ margin: 7 }}
+              fullWidth
+              InputProps={{ classes: { root: classes.inputRoot } }}
+              InputLabelProps={{
+                classes: {
+                  root: classes.labelRoot,
+                  focused: classes.labelFocused,
+                },
+              }}
+              margin="normal"
+              // InputLabelProps={{
+              //   shrink: true,
+              // }}
+            />
           </div>
           <div className="emailcont">
             {/* <label htmlFor="email">Email:</label> */}
             {/* <input name="email" type="email" id="email" required /> */}
             <TextField
-          id="email"
-          label="Email"
-          type="email"
-          name="email"
-          InputProps={{ classes: { root: classes.inputRoot } }}
-          InputLabelProps={{
-            classes: {
-              root: classes.labelRoot,
-              focused: classes.labelFocused
-            }
-          }}
-          required
-          // style={{ margin: 7 }}
-          fullWidth
-          margin="normal"
-          // InputLabelProps={{
-          //   shrink: true,
-          // }}
-        />
+              id="email"
+              label="Email"
+              type="email"
+              name="email"
+              InputProps={{ classes: { root: classes.inputRoot } }}
+              InputLabelProps={{
+                classes: {
+                  root: classes.labelRoot,
+                  focused: classes.labelFocused,
+                },
+              }}
+              required
+              // style={{ margin: 7 }}
+              fullWidth
+              margin="normal"
+              // InputLabelProps={{
+              //   shrink: true,
+              // }}
+            />
           </div>
         </div>
 
@@ -108,17 +106,19 @@ const ContactPage = () => {
           {/* <label htmlFor="message">Message:</label>
           <textarea classname="mes" name="message" id="message" required /> */}
           <TextField
+          
             name="message"
             id="message"
             label="Type Message Here!"
             multiline
             InputProps={{ classes: { root: classes.inputRoot } }}
-          InputLabelProps={{
-            classes: {
-              root: classes.labelRoot,
-              focused: classes.labelFocused
-            }
-          }}
+            InputLabelProps={{
+              classes: {
+                root: classes.labelRoot,
+                focused: classes.labelFocused,
+              },
+            }}
+
             rows={4}
             className={classes.textField}
             variant="outlined"
@@ -129,7 +129,14 @@ const ContactPage = () => {
         {/* <button type="submit">{status}</button>
          */}
         <div className="submit">
-          <Button type="submit" variant="contained" color="primary">
+          <Button type="submit" 
+          style={{
+            borderRadius: 25,
+            backgroundColor: "#999AC6",
+            // padding: "18px 36px",
+            fontSize: "15px"
+        }}
+          variant="contained" color="primary" endIcon={<KeyboardArrowRightIcon />}>
             {status}
           </Button>
         </div>
