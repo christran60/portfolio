@@ -6,14 +6,12 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
-  textField: {
-    // border: "1px solid blue"
-  },
+
   inputRoot: {
     fontSize: 30,
     color: "white"
   },
-  labelRoot: {
+ TextField: {
     fontSize: 30,
     color: "white",
     "&$labelFocused": {
@@ -57,7 +55,7 @@ const ContactPage = () => {
             {/*<input name="name" type="text" id="name" required /> */}
             <TextField
               id="name"
-              label="Name"
+              placeholder="Name"
               type="text"
               name="name"
               required
@@ -81,7 +79,7 @@ const ContactPage = () => {
             {/* <input name="email" type="email" id="email" required /> */}
             <TextField
               id="email"
-              label="Email"
+              placeholder="Email"
               type="email"
               name="email"
               InputProps={{ classes: { root: classes.inputRoot } }}
@@ -109,7 +107,7 @@ const ContactPage = () => {
           
             name="message"
             id="message"
-            label="Type Message Here!"
+            placeholder="Type Message Here!"
             multiline
             InputProps={{ classes: { root: classes.inputRoot } }}
             InputLabelProps={{
@@ -131,7 +129,7 @@ const ContactPage = () => {
         <div className="submit">
           <Button type="submit" 
           style={{
-            borderRadius: 25,
+            borderRadius:25,
             backgroundColor: "#999AC6",
             // padding: "18px 36px",
             fontSize: "15px"
