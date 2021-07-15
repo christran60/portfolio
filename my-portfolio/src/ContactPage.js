@@ -9,14 +9,16 @@ const useStyles = makeStyles((theme) => ({
 
   inputRoot: {
     fontSize: 30,
-    color: "white"
+    color: "rgb(232, 235, 228)",
+    // borderColor:"rgba(153, 154, 198, 0.65) !important"
   },
- TextField: {
+  //change auto complete color, change border color, change placeholder color
+ textField: {
     fontSize: 30,
     color: "white",
     "&$labelFocused": {
       color: "rgba(153, 154, 198, 0.65);",
-      borderColor:"#999AC6"
+      borderColor:"rgba(153, 154, 198, 0.65) !important;"
     },
   },
   labelFocused: {},

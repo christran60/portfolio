@@ -45,11 +45,11 @@
 
 /* optimize this section for mobile */
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
     .titlecont{
-        font-size: 1.75rem;
+        font-size: 7vw;
     }
     .contactlink{
-        font-size: 1rem;
+        font-size: 4vw;
     }
 }
