@@ -14,6 +14,16 @@
     margin-top: 25vh;
     /* background-color:blue; */
 }
+/* .MuiTextField-root{
+    border-style: solid;
+    border-color: aquamarine;
+} */
+/*
+.Mui-focused{
+    padding: 3px;
+    border-style: solid;
+    border-color: aquamarine;
+} */
 .message{
     color:whitesmoke;
     width:60.5vw;
