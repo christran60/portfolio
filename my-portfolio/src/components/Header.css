@@ -11,12 +11,21 @@
   border-radius: 10rem;
   border-width: 0.5rem;
   border-color: rgb(153, 154, 198);
+  transition-property: transform, width, border-width;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.15s;
+}
+.actualpfp:hover{
+  border-width:0rem;
+  width:18rem;
 }
 
 .introcont {
   color: rgb(232, 235, 228);
   font-size: 1.5rem;
   padding-bottom: 0.55rem;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
   
 }
 .name {
@@ -24,6 +33,8 @@
   /* background-color: aquamarine; */
   padding-bottom: 2.5rem;
   font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
   color: rgb(232, 235, 228);
 }
 .biocont {
@@ -34,14 +45,17 @@
   /* background-color: blue; */
 }
 .cvlink {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
   /* background-color: teal; */
   display: flex;
   justify-content: center;
-  width: 5.1rem;
+  /* width: 5.1rem; */
   border-radius: 5rem;
   border-style: solid;
   border-width: 0.3rem;
   border-color: rgb(153, 154, 198);
+  padding:6px;
 }
 .cvlink:link {
   color: rgb(210, 213, 221);
@@ -83,7 +97,7 @@
   margin-left: 8vw;
 }
 /* mediaquery for iphonex */
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 900px) {
   .Headcontainer {
     flex-direction: column;
     align-items: center;
@@ -110,9 +124,10 @@
   .cvlink {
     display: flex;
     justify-content: center;
-    width: 20vw;
+
     border-radius: 5vw;
     border-width: 1vw;
+    padding:6px;
   }
   .actualpfp {
     width: 40vw;

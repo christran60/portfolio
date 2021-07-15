@@ -1,39 +1,19 @@
 import React, { useState } from "react";
 import "./ContactPage.css";
-import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
+import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight"
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
-  inputRoot: {
-    fontSize: 25,
-    color: "#D2D5DD",
-    // borderColor:"rgba(153, 154, 198, 0.65) !important"
-  },
-  cssOutlinedInput: {
-    fontSize: 25,
-    color: "#D2D5DD",
-    '&$cssFocused $notchedOutline': {
-      borderColor: `${theme.palette.primary.main} !important`,
-    }
-  },
-  cssFocused: {},
-  notchedOutline:{
-    borderWidth:'1px',
-    borderColor:"white !important"
-  },
-  //change auto complete color, change border color, change placeholder color
 
-  // textField: {
-  //   fontSize: 30,
-  //   color: "white",
-  //   "&$labelFocused": {
-  //     color: "rgba(153, 154, 198, 0.65);",
-  //     borderColor: "rgba(153, 154, 198, 0.65) !important;",
-  //   },
-  // },
-  
+  inputRoot: {
+    
+    fontSize: 30,
+    color: "white",
+    fontFamily:"Open Sans"
+  },
+  //change auto complete color, change border color, change placeholder
   labelFocused: {},
 }));
 
@@ -76,18 +56,13 @@ const ContactPage = () => {
               required
               // style={{ margin: 7 }}
               fullWidth
-              InputProps={{ classes: {
-                 root: classes.cssOutlinedInput ,
-                 focused: classes.cssFocused,
-                 notchedOutline: classes.notchedOutline,
-                }
-              }}
-              InputLabelProps={{
-                classes: {
-                  root: classes.labelRoot,
-                  focused: classes.labelFocused,
-                },
-              }}
+              InputProps={{ classes: { root: classes.inputRoot } }}
+              // InputLabelProps={{
+              //   classes: {
+              //     root: classes.labelRoot,
+              //     focused: classes.labelFocused,
+              //   },
+              // }}
               margin="normal"
               // InputLabelProps={{
               //   shrink: true,
@@ -103,12 +78,12 @@ const ContactPage = () => {
               type="email"
               name="email"
               InputProps={{ classes: { root: classes.inputRoot } }}
-              InputLabelProps={{
-                classes: {
-                  root: classes.labelRoot,
-                  focused: classes.labelFocused,
-                },
-              }}
+              // InputLabelProps={{
+              //   classes: {
+              //     root: classes.labelRoot,
+              //     focused: classes.labelFocused,
+              //   },
+              // }}
               required
               // style={{ margin: 7 }}
               fullWidth
@@ -124,17 +99,19 @@ const ContactPage = () => {
           {/* <label htmlFor="message">Message:</label>
           <textarea classname="mes" name="message" id="message" required /> */}
           <TextField
+          
             name="message"
             id="message"
             placeholder="Type Message Here!"
             multiline
             InputProps={{ classes: { root: classes.inputRoot } }}
-            InputLabelProps={{
-              classes: {
-                root: classes.labelRoot,
-                focused: classes.labelFocused,
-              },
-            }}
+            // InputLabelProps={{
+            //   classes: {
+            //     root: classes.labelRoot,
+            //     focused: classes.labelFocused,
+            //   },
+            // }}
+
             rows={4}
             className={classes.textField}
             variant="outlined"
@@ -145,18 +122,15 @@ const ContactPage = () => {
         {/* <button type="submit">{status}</button>
          */}
         <div className="submit">
-          <Button
-            type="submit"
-            style={{
-              borderRadius: 25,
-              backgroundColor: "#999AC6",
-              // padding: "18px 36px",
-              fontSize: "15px",
-            }}
-            variant="contained"
-            color="primary"
-            endIcon={<KeyboardArrowRightIcon />}
-          >
+          <Button type="submit" 
+          style={{
+            borderRadius:25,
+            backgroundColor: "#999AC6",
+            // padding: "18px 36px",
+            fontSize: "15px",
+            fontFamily:"Open Sans"
+        }}
+          variant="contained" color="primary" endIcon={<KeyboardArrowRightIcon />}>
             {status}
           </Button>
         </div>

@@ -17,6 +17,8 @@
     padding-left: 10px; 
 }
 ul {
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
   position: fixed;
   top: 0;
   width: 100%;

@@ -7,7 +7,7 @@ function Header() {
     <div className="Headcontainer" id="Home">
 
       <div className="nameandbiocontainer">
-        <div className="introcont">Hi! I'm</div>
+        <div className="introcont" >Hi! I'm</div>
         <div className="name">Christopher Tran</div>
         {/* biocont is CV link */}
         <div className="biocont">

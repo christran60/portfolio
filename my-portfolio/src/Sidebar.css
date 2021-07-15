@@ -21,6 +21,7 @@
     
   }
   .links{
+    
     /* background-color: grey; */
     letter-spacing: 1.3rem;
     font-size: 1.5rem;
@@ -79,6 +80,8 @@
   
   /* Wrapper for item list */
   .bm-item-list {
+    font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
       /* background-color: thistle; */
     color: #b8b7ad;
     padding: 0.8em;

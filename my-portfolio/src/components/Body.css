@@ -63,6 +63,8 @@
   /* background-color: aquamarine; */
 }
 .actualnamecont {
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
   color:rgb(232, 235, 228);
   /* width: 20vw; */
   font-size: 2.5rem;
@@ -79,6 +81,8 @@
 }
 
 .descriptioncont {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 1.5vw;
   padding-left: 0.5vw;
 /* add backdrop and hover effect making the backdrop transparency .85 -> 1 */
@@ -87,7 +91,7 @@
 }
 
 /* mediaquery for iphonex */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width:700px) {
   .actualbiocont {
     width:75%;
   }

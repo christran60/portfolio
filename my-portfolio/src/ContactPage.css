@@ -9,7 +9,9 @@
     
 }
 
+
 .Contactform{
+    
     height:50vh;
     margin-top: 25vh;
     /* background-color:blue; */
@@ -25,6 +27,8 @@
     border-color: aquamarine;
 } */
 .message{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
     color:whitesmoke;
     width:60.5vw;
     display:flex;
@@ -67,6 +71,7 @@
     
 }
 .submit{
+    
     /* background-color: blueviolet; */
     
     padding-left: 68.8vw;

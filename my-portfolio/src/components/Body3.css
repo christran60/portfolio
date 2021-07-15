@@ -28,6 +28,8 @@
   /* background-color: aquamarine; */
   /* height:70vh; */
   font-size: 2.5rem;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
   color:rgb(232, 235, 228);
 }
 .projectscont::after {
@@ -45,6 +47,7 @@
     flex-direction: row;
     width:100%;
 color:rgb(232, 235, 228);
+
     /* border separating projects (can c/p) */
     border-style: solid;
     border-left-width: 0vw;
@@ -69,6 +72,8 @@ color:rgb(232, 235, 228);
 }
 
 .projectname {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
     display: flex;
     /* background-color: aquamarine; */
     font-size:1.75vw;
@@ -92,6 +97,8 @@ color:rgb(232, 235, 228);
     backdrop-filter: blur(15px);
     background: rgba(8, 8, 8, 0.2);
     border-radius: 1rem;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
     /* filter: */
     color:white;
 }
@@ -102,7 +109,7 @@ color:rgb(232, 235, 228);
     padding-top: 5vh;
 }
 .languagesp{
-    padding-top: .5vh;
+    padding-top: 1vh;
     word-spacing: 1rem;
     display: flex;
     font-size: .7vw;
@@ -110,6 +117,8 @@ color:rgb(232, 235, 228);
     /* justify-content: space-evenly; */
     /* margin-left: auto; */
     padding-left: 1vw;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
 }
 .website{
     width:25vw;
