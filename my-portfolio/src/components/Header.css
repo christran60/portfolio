@@ -55,6 +55,9 @@
   border-style: solid;
   border-width: 0.3rem;
   border-color: rgb(153, 154, 198);
+  transition-property:background-color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1s;
   padding:6px;
 }
 .cvlink:link {
@@ -66,6 +69,7 @@
 }
 
 .cvlink:hover {
+
   background-color: rgb(153, 154, 198);
   color: rgb(232, 235, 228);
 }
@@ -128,6 +132,10 @@
     border-radius: 5vw;
     border-width: 1vw;
     padding:6px;
+  }
+  .actualpfp:hover{
+    border-width:0rem;
+    width:45vw;
   }
   .actualpfp {
     width: 40vw;

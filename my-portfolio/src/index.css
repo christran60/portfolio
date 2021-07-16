@@ -8,7 +8,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
 }
-
+/* set autofill background to any color */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px rgb(41,47,54) inset !important;
+  -webkit-text-fill-color: white !important;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

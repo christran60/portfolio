@@ -11,9 +11,10 @@ const useStyles = makeStyles((theme) => ({
     
     fontSize: 30,
     color: "white",
-    fontFamily:"Open Sans"
+    fontFamily:"Open Sans",
+    fontWeight:300
   },
-  //change auto complete color, change border color, change placeholder
+  //change change border color, change placeholder color
   labelFocused: {},
 }));
 

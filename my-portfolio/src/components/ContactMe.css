@@ -35,6 +35,9 @@
     color:lightyellow;  
 }
 .contactlink{
+    transition-property:background-color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.1s;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     border-radius: .5rem;
