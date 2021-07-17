@@ -1,8 +1,14 @@
 import React from "react";
 import "./Smb.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+AOS.init({
+  once: true,
+  mirror: true,
+});
 function Smb() {
   return (
-    <div className="smbcont">
+    <div className="smbcont" data-aos="fade" data-aos-delay="3000"> 
         <a
             className="links"
             href="https://github.com/christran60"
