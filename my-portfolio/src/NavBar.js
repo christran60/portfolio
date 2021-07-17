@@ -16,10 +16,9 @@ function NavBar() {
     // underline active page/section
 
     <div className="NavBarcont" data-aos="fade" data-aos-duration="300">
- <HashLink to="/#Home">
-            
-            <img className="Logo" src={Logo} alt="logo" />
-          </HashLink>
+      <HashLink to="/#Home" className="hashlinktohome">
+        <img className="Logo" src={Logo} alt="logo" />
+      </HashLink>
       <ul className="nonmobile">
         
         <li>
@@ -66,7 +65,9 @@ function NavBar() {
           </div>
         </li>
         
-        
+        <HashLink to="/#Home">
+          <img className="Logo" src={Logo} alt="logo" />
+        </HashLink>
       </ul>
     </div>
   );
