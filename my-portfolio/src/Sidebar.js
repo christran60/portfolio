@@ -3,7 +3,6 @@ import { slide as Menu } from "react-burger-menu";
 import { Link } from "react-router-dom";
 import "./Sidebar.css";
 import { HashLink } from "react-router-hash-link";
-// import Logo from "/mnt/c/wsl/github/myportfolio/portfolio/my-portfolio/src/images/ded.png";
 function Sidebar() {
   return (
     <div className="Sidebar">

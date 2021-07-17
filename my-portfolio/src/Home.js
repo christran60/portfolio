@@ -4,6 +4,7 @@ import Body from './components/Body'
 import Body2 from './components/Body2'
 import Body3 from './components/Body3'
 import ContactMe from './components/ContactMe'
+import Footer from './components/Footer'
 // import NavBar from './NavBar'
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
         <Body2 />
         <Body3 />
         <ContactMe />
+        <Footer />
         </div>
     )
 }

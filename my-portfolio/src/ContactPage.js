@@ -4,7 +4,12 @@ import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight"
 import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
-
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+AOS.init({
+  once: true,
+  mirror: true,
+});
 const useStyles = makeStyles((theme) => ({
 
   inputRoot: {
@@ -44,12 +49,13 @@ const ContactPage = () => {
   return (
     <div className="Contactformcont">
       <form name="Contactform" onSubmit={handleSubmit} className="Contactform">
-        <div className="message">Send a message to me here!</div>
+        <div className="message" data-aos="fade-up" data-aos-duration="800">Send a message to me here!</div>
         <div className="nameandemailcont">
           <div className="namecont">
             {/* <label htmlFor="name">Name:</label> */}
             {/*<input name="name" type="text" id="name" required /> */}
             <TextField
+            data-aos="fade-right" data-aos-delay="750" data-aos-duration="500"
               id="name"
               placeholder="Name"
               type="text"
@@ -74,6 +80,7 @@ const ContactPage = () => {
             {/* <label htmlFor="email">Email:</label> */}
             {/* <input name="email" type="email" id="email" required /> */}
             <TextField
+             data-aos="fade-right" data-aos-delay="750" data-aos-duration="500"
               id="email"
               placeholder="Email"
               type="email"
@@ -100,7 +107,7 @@ const ContactPage = () => {
           {/* <label htmlFor="message">Message:</label>
           <textarea classname="mes" name="message" id="message" required /> */}
           <TextField
-          
+           data-aos="fade-up" data-aos-delay="1300" data-aos-duration="500"
             name="message"
             id="message"
             placeholder="Type Message Here!"
@@ -124,6 +131,7 @@ const ContactPage = () => {
          */}
         <div className="submit">
           <Button type="submit" 
+          data-aos="fade-up" data-aos-delay="1300" data-aos-duration="500"
           style={{
             borderRadius:25,
             backgroundColor: "#999AC6",

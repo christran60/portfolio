@@ -33,14 +33,29 @@
 
 .fa-github{
     padding-left: 3.5px;
+    transition-property:color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.15s;
 }
 .fa-instagram{
     padding-left: 5px;
+    transition-property:color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.15s;
 }
 .fa-linkedin-in{
+    transition-property:color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.15s;
     padding-left: 3.8px;
 }
+.fa-handshake{
+    transition-property:color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.15s;
+}
 .fa-handshake:hover{
+    
     color:red;
 }
 .fa-instagram:hover{

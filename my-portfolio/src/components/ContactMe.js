@@ -4,7 +4,7 @@ import "./ContactMe.css"
 function ContactMe() {
     return (
         <div className="ContactMeCont">
-            <div className="supercont">
+            <div className="supercont"data-aos="fade-up" data-aos-duration="800">
                 <div className="titlecont">
                     Get Connected With Me! 
                 </div>
@@ -14,6 +14,7 @@ function ContactMe() {
                         Contact Me
                     </Link>
             </div>
+            
         </div>
     )
 }

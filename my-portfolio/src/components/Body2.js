@@ -1,9 +1,15 @@
 import React from 'react'
 import "./Body2.css"
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+AOS.init({
+  once: true,
+  mirror: true,
+});
 function Body2() {
     return (
         <div className="Body2cont" id="Technologies">
-            <div className="Languagescont">
+            <div className="Languagescont"  data-aos="fade-up" data-aos-duration="800">
                 {/* <div className="border">
 
                 </div> */}

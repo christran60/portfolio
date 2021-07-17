@@ -72,7 +72,7 @@ color:rgb(232, 235, 228);
 }
 
 .projectname {
-  font-weight: 4sdw00;
+  font-weight: 400;
   font-family: 'Montserrat', sans-serif;
     display: flex;
     /* background-color: aquamarine; */
@@ -95,18 +95,25 @@ color:rgb(232, 235, 228);
     margin-left: -5rem;
     /* background-color: grey; */
     backdrop-filter: blur(15px);
-    background: rgba(8, 8, 8, 0.2);
+    background-color: rgba(8, 8, 8, 0.3);
     border-radius: 1rem;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
     /* filter: */
     color:white;
+    transition-property: transform, background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.15s;
+}
+.projectdescription:hover{
+  background-color: rgba(8, 8, 8, 0.8);
 }
 .projectimg{
   
     width:100%;
     display:flex;
     padding-top: 5vh;
+
 }
 .languagesp{
     padding-top: 1vh;
@@ -123,10 +130,18 @@ color:rgb(232, 235, 228);
 .website{
     width:25vw;
     height:fit-content;
-    
-    /* border-style: solid; */
+    /* box-shadow: -12px 12px 3px 1px rgba(153, 154, 198, .5); */
+    border-style: solid;
     border-radius: .5rem;
-    /* border-width: 0.5rem; */
+    border-width: 0.5rem;
+    border-color:rgba(8, 8, 8, .2);
+    border-style:solid;
+    transition-property: transform,border-width;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.15s;
+}
+.website:hover{
+  border-width:0px;
 }
 @media only screen and (max-width: 1000px) {
   .Body3cont{

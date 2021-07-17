@@ -15,6 +15,7 @@
   
 
 }
+
 .actualbiocont {
   width: 50%;
   position: relative;
@@ -89,14 +90,16 @@
   font-size: 1.5rem;
   color:#D2D5DD;
 }
-
+.descp1{
+  padding-bottom:2vh;
+}
 /* mediaquery for iphonex */
 @media only screen and (max-width:700px) {
   .actualbiocont {
     width:75%;
   }
   .border{
-    height: 130%;
+    height: 115%;
     width:100%;
     border-style: solid;
     border-color: rgb(153, 154, 198);
