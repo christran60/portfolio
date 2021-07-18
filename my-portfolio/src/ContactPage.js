@@ -35,7 +35,8 @@ const ContactPage = () => {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("https://myportfoliocontactform.herokuapp.com/", {
+    let response = await fetch("https://christophertran.netlify.app/ContactPage", {
+      // let response = await fetch("http://localhost:3000/ContactPage",{
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
