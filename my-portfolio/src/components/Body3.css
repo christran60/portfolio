@@ -129,7 +129,7 @@ color:rgb(232, 235, 228);
 }
 .website{
     width:25vw;
-    height:fit-content;
+    height:40vh;
     /* box-shadow: -12px 12px 3px 1px rgba(153, 154, 198, .5); */
     border-style: solid;
     border-radius: .5rem;
