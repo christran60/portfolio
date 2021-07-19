@@ -80,6 +80,12 @@
     padding-top: 3vh;
 }
 @media only screen and (max-width: 1000px) {
+    .Contactform{
+    
+        height:50vh;
+        margin-top: 15vh;
+        /* background-color:blue; */
+    }
     .nameandemailcont{
         width:70vw;
     }
@@ -93,7 +99,7 @@
     .submit{
         /* background-color: blueviolet; */
         
-        padding-left: 66vw;
+        padding-left: 54vw;
         width:73.5vw;
         /* float:right; */
         padding-top: 4vh;
