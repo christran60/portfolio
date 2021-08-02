@@ -26,9 +26,9 @@ function Body() {
             at work developing my skills even further.{" "}
           </p>
           <p>
-            Right now, I'm focused on gaining more experience in the field by
-            working on side projects and am also on the lookout for any
-            internship opportunities!
+            Currently, I'm working at <a className="pacare" href ="https://www.linkedin.com/company/pacare-io/"  target="_blank"
+            rel="noreferrer">PACare</a>, where I'm a front-end web development intern. I also work as a graphics design intern
+            for the esports organization at UC Davis!
           </p>
         </div>
       </div>

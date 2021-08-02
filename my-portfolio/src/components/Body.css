@@ -57,7 +57,20 @@
   /* border-right-width: 0.3rem;
   border-left-width: 0.3rem; */
 /* } */
+.pacare:link {
+  color: rgb(153, 154, 198);
+  text-decoration: none;
+}
+.pacare:visited {
+  color: rgb(153, 154, 198);
+}
 
+.pacare:hover {
+
+  /* background-color: rgb(153, 154, 198); */
+  /* color: rgb(232, 235, 228); */
+  text-decoration: underline;
+}
 .aboutmecont {
   display: flex;
   flex-direction: row;
