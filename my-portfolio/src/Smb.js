@@ -19,7 +19,7 @@ function Smb() {
       </a>
       <a
       className="links"
-       href="https://www.linkedin.com/in/chris-tran-25702620b/"
+       href="https://www.linkedin.com/in/christophertran-dev/"
        target="_blank"
        rel="noreferrer"
        >
