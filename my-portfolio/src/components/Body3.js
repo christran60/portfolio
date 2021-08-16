@@ -36,7 +36,7 @@ function Body3() {
             This has been the perfect introduction to front end development, and makes me excited to work on future projects!
           </div>
           <div className="languagesp">
-            React Javascript HTML CSS Material-UI
+            React Javascript HTML CSS Material-UI Node.js
           </div>
         </div>
       </div>
