@@ -34,8 +34,18 @@ function Body2() {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
             <i class="devicon-html5-plain"></i>
 
+            {/* photoshop */}
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"></link>
+            <i class="devicon-photoshop-plain"></i>
+        
+                {/* heroku*/}
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"></link>
+                <i class="devicon-heroku-plain"></i>
             </div>
             <div className="langthrough6cont">
+                {/* nodejs */}
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"></link>
+                <i class="devicon-nodejs-plain"></i>
                 {/* react icon font */}
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
                 <i class="devicon-react-original"></i>

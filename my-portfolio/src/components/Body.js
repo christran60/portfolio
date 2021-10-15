@@ -26,9 +26,17 @@ function Body() {
             at work developing my skills even further.{" "}
           </p>
           <p>
-            Currently, I'm working at <a className="pacare" href ="https://www.linkedin.com/company/pacare-io/"  target="_blank"
-            rel="noreferrer">PACare</a>, where I'm a front-end web development intern. I also work as a graphics design intern
-            for the esports organization at UC Davis!
+            Currently, I'm working at{" "}
+            <a
+              className="pacare"
+              href="https://www.linkedin.com/company/pacare-io/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              PACare
+            </a>
+            , where I'm a software engineering intern. I also work as a
+            graphics design intern for the esports organization at UC Davis!
           </p>
         </div>
       </div>
