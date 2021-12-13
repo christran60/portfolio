@@ -29,13 +29,13 @@ function Body() {
             Currently, I'm working at{" "}
             <a
               className="pacare"
-              href="https://www.linkedin.com/company/pacare-io/"
+              href="https://www.linkedin.com/company/ariacallsandcards/"
               target="_blank"
               rel="noreferrer"
             >
-              PACare
+              Aria Communications
             </a>
-            , where I'm a software engineering intern. I also work as a
+            , where I'm a software developer. I also work as a
             graphics design intern for the esports organization at UC Davis!
           </p>
         </div>

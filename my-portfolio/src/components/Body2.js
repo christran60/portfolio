@@ -26,6 +26,9 @@ function Body2() {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
             <i class="devicon-cplusplus-line"></i>
 
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"></link>
+            <i class="devicon-csharp-line"></i>
+
             {/* css icon font */}
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
             <i class="devicon-css3-plain"></i>
@@ -57,6 +60,9 @@ function Body2() {
                 {/* python icon font */}
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"></link>
                 <i class="devicon-materialui-plain"></i>
+
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"></link>
+                <i class="devicon-dotnetcore-plain"></i>
             </div>
             </div>
         </div>

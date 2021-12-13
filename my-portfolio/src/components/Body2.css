@@ -132,6 +132,20 @@
   border-width: 0.2rem;
   border-style: solid;
 }
+.devicon-dotnetcore-plain{
+  color: white;
+  padding: 0.3vw;
+  border-radius: 20%;
+  border-width: 0.2rem;
+  border-style: solid;
+}
+.devicon-csharp-line{
+  color: white;
+  padding: 0.3vw;
+  border-radius: 20%;
+  border-width: 0.2rem;
+  border-style: solid;
+}
 @media only screen and (max-width: 800px) {
   .Languagescont{
     width:75%;
@@ -148,6 +162,14 @@
     font-size:12vw;
  
     /* font-size: 13vw; */
+  }
+  .devicon-csharp-line{
+    border-width: 0rem;
+    padding: 1.25vw;
+  }
+  .devicon-dotnetcore-plain{
+    border-width: 0rem;
+    padding: 1.25vw;
   }
   .devicon-cplusplus-line {
     border-width: 0rem;
